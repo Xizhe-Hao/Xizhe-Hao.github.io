@@ -171,10 +171,10 @@ skills:
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Bike
         description: ''
         percent: 100
-        icon: cat
+        icon: bike
       - name: Photography
         description: ''
         percent: 80
@@ -222,4 +222,4 @@ awards:
 
 ## About Me
 
-Zach(Xizhe) Hao is currently a Master's student in Electrical and Computer Engineering at the University of Washington. His research interests include embedded systems, AIoT, and machine learning. He is genuinely interested in exploring how technology and business can be integrated to address real-world challenges and contribute positively to society. He is always happy to connect and learn from others who share similar passions and interests.
+Zach(Xizhe) Hao is currently a Master's student in Electrical and Computer Engineering at the University of Washington. His research interests include embedded systems, AIoT, and machine learning. Besides, he is genuinely interested in exploring how technology and business can be integrated to address real-world challenges and contribute positively to society. Feel free to reach out to him!
