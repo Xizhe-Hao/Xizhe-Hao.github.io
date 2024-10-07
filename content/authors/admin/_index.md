@@ -59,10 +59,7 @@ education:
     date_end: 2024-06-30
     summary: |
       Grade: 86.24/100 
-
-
-      Thesis on _Intelligent Fully Automatic Flowerpot Based on Micropump_. Supervised by Prof. Guoping Liu and Prof. Xing Cheng of 
-      SUSTech.
+      Thesis on _Intelligent Fully Automatic Flowerpot Based on Micropump_. Supervised by [Prof. Guoping Liu](https://www.sustech.edu.cn/en/faculties/guo-pingliu.html) and [Prof. Xing Cheng](https://faculty.sustech.edu.cn/?tagid=chengx&iscss=1&snapid=1&orderby=date&go=2&lang=en) 
     Courses included:
       - Microprocessors and Microsystems, Artificial Intelligence and Machine Learning
       - Engineering Mathematics, Analog Circuit
