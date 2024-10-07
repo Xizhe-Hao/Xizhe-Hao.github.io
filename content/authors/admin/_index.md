@@ -69,7 +69,7 @@ education:
       - Microprocessors and Microsystems, Artificial Intelligence and Machine Learning
       - Engineering Mathematics, Analog Circuit
       - Digital System Design, Robotic Motion and Control
-- 
+ 
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
