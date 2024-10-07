@@ -66,7 +66,7 @@ education:
 
 
       Courses included:
-      - Microprocessors and Microsystems, Artificial Intelligence and Machine Learning
+      - Microprocessors and Microsystems, AI and Machine Learning
       - Engineering Mathematics, Analog Circuit
       - Digital System Design, Robotic Motion and Control
  
