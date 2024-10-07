@@ -8,7 +8,7 @@ title: Zach(Xizhe) Hao
 # name_pronunciation: Chien Shiung Wu 
 
 # Full name (for SEO)
-first_name: Xizhe
+first_name: Zach(Xizhe)
 last_name: Hao
 
 # Status emoji
