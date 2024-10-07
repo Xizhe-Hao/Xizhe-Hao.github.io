@@ -32,12 +32,12 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'xhao6@uw.edu'
+    url: 'mailto:xhao6@uw.edu'
     label: E-mail Me
   # - icon: brands/x
   #   url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/zach_6688/
+  # - icon: brands/instagram
+  #   url: https://www.instagram.com/zach_6688/
   - icon: brands/github
     url: https://github.com/Xizhe-Hao
   - icon: brands/linkedin
