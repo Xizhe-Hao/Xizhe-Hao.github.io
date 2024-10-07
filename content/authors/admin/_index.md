@@ -25,7 +25,7 @@ role: M.S. in Electrical and Computer Engineering
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Univeristy of Washington
+  - name: Univeristy of Washington-Seattle
     url: https://www.ece.uw.edu/
 
 # Social network links
@@ -34,10 +34,10 @@ profiles:
   - icon: at-symbol
     url: 'xhao6@uw.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+  # - icon: brands/x
+  #   url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/zach_6688/
   - icon: brands/github
     url: https://github.com/Xizhe-Hao
   - icon: brands/linkedin
@@ -59,7 +59,10 @@ education:
     date_end: 2024-06-30
     summary: |
       Grade: 86.24/100 
-      Thesis on _Intelligent Fully Automatic Flowerpot Based on Micropump_. Supervised by [Prof.Guoping Liu](https://www.sustech.edu.cn/en/faculties/guo-pingliu.html) and [Prof.Xing Cheng](https://faculty.sustech.edu.cn/?tagid=chengx&iscss=1&snapid=1&orderby=date&go=2&lang=en). 
+
+
+      Thesis on _Intelligent Fully Automatic Flowerpot Based on Micropump_. Supervised by [Prof. Guoping Liu]             (https://www.sustech.edu.cn/en/faculties/guo-pingliu.html) and [Prof. Xing Cheng](https://faculty.sustech.edu.cn/?tagid=chengx&iscss=1&snapid=1&orderby=date&go=2&lang=en).
+      
     Courses included:
       - Microprocessors and Microsystems, Artificial Intelligence and Machine Learning
       - Engineering Mathematics, Analog Circuit
