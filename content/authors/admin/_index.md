@@ -64,7 +64,7 @@ education:
 
       Thesis on _Intelligent Fully Automatic Flowerpot Based on Micropump_, integrating technologies such as micropumps, intelligent sensors, large models, and IoT cloud platforms. This system intelligently monitors and regulates the plant growth environment, achieving precise control, providing the most suitable growth conditions, and reducing water waste. Supervised by <a href="https://scholar.google.co.uk/citations?user=jWmF7IQAAAAJ&hl=en">Prof. Guoping Liu</a> and <a href="https://scholar.google.com/citations?user=sNve2YAAAAAJ&hl=zh-CN">Prof. Xing Cheng</a> of SUSTech.
 
-      
+
     Courses included:
       - Microprocessors and Microsystems, Artificial Intelligence and Machine Learning
       - Engineering Mathematics, Analog Circuit
@@ -109,7 +109,7 @@ work:
         the front end of a WeChat mini-program using JavaScript and Wechat Devtools
       - Data Analysis & Strategic Planning: Used Tableau for data visualization, analyzing user trends and behaviors to
         inform financial management and company strategy; implemented UI enhancements and functionality optimizations
-        in mini-programs to boost user engagement. 
+        in mini-programs to boost user engagement
 
   - position: Director
     company_name: News Agency of Southern University of Science and Technology
@@ -119,7 +119,17 @@ work:
     date_end: '2022-09-01'
     summary: |2-
       - Coordinated 100+ members to manage the official social media accounts of the university and its magazine
-      - Won the “Most Impactful University News Work” from China Youth Daily 
+      - Won the “Most Impactful University News Work” from China Youth Daily
+  
+  - position: Volunteer
+    company_name: News Agency of Southern University of Science and Technology
+    company_url: ''
+    company_logo: ''
+    date_start: 2020-09-01
+    date_end: '2024-06-30'
+    summary: |2-
+      - Contributed 200+ hours across 50+ diverse events, enriching children's science literacy
+      - Awarded the “Top 10 Volunteer” from Southern University of Science and Technology in 2022
   # - position: Backend Software Engineer
   #   company_name: X
   #   company_url: ''
