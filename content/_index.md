@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: milky-way-starry-sky-night-sky-star-956981.jpeg
+          filename: space.jpg
           filters:
             brightness: 1.0
           size: cover
