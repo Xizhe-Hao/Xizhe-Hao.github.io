@@ -65,7 +65,7 @@ education:
       Thesis on _Intelligent Fully Automatic Flowerpot Based on Micropump_, integrating technologies such as micropumps, intelligent sensors, large models, and IoT cloud platforms. This system intelligently monitors and regulates the plant growth environment, achieving precise control, providing the most suitable growth conditions, and reducing water waste. Supervised by <a href="https://scholar.google.co.uk/citations?user=jWmF7IQAAAAJ&hl=en">Prof. Guoping Liu</a> and <a href="https://scholar.google.com/citations?user=sNve2YAAAAAJ&hl=zh-CN">Prof. Xing Cheng</a> of SUSTech.
 
 
-    Courses included:
+      Courses included:
       - Microprocessors and Microsystems, Artificial Intelligence and Machine Learning
       - Engineering Mathematics, Analog Circuit
       - Digital System Design, Robotic Motion and Control
@@ -74,17 +74,17 @@ education:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
 
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+  # - area: MEng Artificial Intelligence
+  #   institution: Massachusetts Institute of Technology
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     Courses included:
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 
   # - area: BSc Artificial Intelligence
