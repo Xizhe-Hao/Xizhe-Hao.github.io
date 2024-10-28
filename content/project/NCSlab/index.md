@@ -3,7 +3,7 @@ title: Network Circuit Experiment System Based on Digital Twin
 date_start: 2022-09-01
 date_end: '2024-06-16'
 date: 2024-06-25
-external_link: https://github.com/HuaYuXiao/NCSLab
+# external_link: https://github.com/HuaYuXiao/NCSLab
 tags:
   - Digital Twin
   - Hardware-Software interaction
