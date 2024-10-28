@@ -11,9 +11,9 @@ title: Zach(Xizhe) Hao
 first_name: Zach(Xizhe)
 last_name: Hao
 
-# Status emoji
-status:
-  icon: ☕️
+# # Status emoji
+# status:
+#   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
