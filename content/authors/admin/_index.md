@@ -74,10 +74,10 @@ education:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
 
-  # - area: MEng Artificial Intelligence
-  #   institution: Massachusetts Institute of Technology
-  #   date_start: 2016-01-01
-  #   date_end: 2020-12-31
+  - area: MS Electrical and Computer Engineering
+    institution: University of Washington - Seattle
+    date_start: 2024-09-25
+    date_end: 2026-06-30
   #   summary: |
   #     GPA: 3.8/4.0
 
