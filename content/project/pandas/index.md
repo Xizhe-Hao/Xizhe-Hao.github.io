@@ -10,9 +10,11 @@ tags:
   - Remote Circuit Experiment
 ---
 
-- Led the circuit experiment segment, focusing on circuit construction and integrated relay control; used Raspberry Pi
-I/O interface for seamless hardware-software interaction, ensuring robust PC communication
-- Collaborated in the implementation of a digital twin 3D model, enabling user interaction with circuit components
-via a web interface; facilitated real-time data manipulation and experiment data recording
+- Led the circuit experiment segment, focusing on circuit construction and integrated relay control; 
+
+- Used Raspberry Pi I/O interface for seamless hardware-software interaction, ensuring robust PC communication;
+
+- Collaborated in the implementation of a digital twin 3D model, enabling user interaction with circuit components via a web interface; facilitated real-time data manipulation and experiment data recording
+
 - Awarded Second Prize in the South China Division of Industry Integration and Innovation Competition
 <!--more-->
