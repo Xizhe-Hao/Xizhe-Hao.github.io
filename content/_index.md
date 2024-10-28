@@ -35,7 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        My research interests include embedded systems, AIoT, and machine learning. 
+        My research interests include Embedded systems, AIoT, and Machine Learning. 
         
         Besides, I'm genuinely interested in exploring how technology and business can be integrated to address real-world challenges and contribute positively to society.
 
@@ -56,14 +56,15 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Recent Publications
+      title: Recent Projects
       text: ""
       filters:
         folders:
-          - publication
+          - project
         exclude_featured: false
     design:
       view: citation
+
   # - block: collection
   #   id: talks
   #   content:
@@ -71,9 +72,9 @@ sections:
   #     filters:
   #       folders:
   #         - event
-    design:
-      view: article-grid
-      columns: 1
+    # design:
+    #   view: article-grid
+    #   columns: 1
   - block: collection
     id: news
     content:
