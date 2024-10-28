@@ -115,7 +115,7 @@ work:
         inform financial management and company strategy; implemented UI enhancements and functionality optimizations
         in mini-programs to boost user engagement
 
-  - position: Director
+  - position: President
     company_name: News Agency of Southern University of Science and Technology
     company_url: ''
     company_logo: ''
