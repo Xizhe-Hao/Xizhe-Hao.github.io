@@ -65,7 +65,7 @@ education:
       Thesis on **_Intelligent Fully Automatic Flowerpot Based on Micropump_**, integrating technologies such as micropumps, intelligent sensors, large models, and IoT cloud platforms. This system intelligently monitors and regulates the plant growth environment, achieving precise control, providing the most suitable growth conditions, and reducing water waste. Supervised by <a href="https://scholar.google.co.uk/citations?user=jWmF7IQAAAAJ&hl=en">Prof. Guoping Liu</a> and <a href="https://scholar.google.com/citations?user=sNve2YAAAAAJ&hl=zh-CN">Prof. Xing Cheng</a> of SUSTech.
 
 
-      Courses included:
+      Core Courses included:
       - Microprocessors and Microsystems, AI and Machine Learning
       - Engineering Mathematics, Analog Circuit
       - Digital System Design, Robotic Motion and Control
