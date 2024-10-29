@@ -32,7 +32,10 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: soild/envelope
+  - icon: |
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24" fill="currentColor">
+          <path d="M502.3 190.8L327.4 338.5c-28.6 25.5-71.2 25.5-99.8 0L9.7 190.8C3.8 186.4 0 179.5 0 172v-44c0-26.5 21.5-48 48-48h416c26.5 0 48 21.5 48 48v44c0 7.5-3.8 14.4-9.7 18.8zM464 128H48c-8.8 0-16 7.2-16 16v25.2l213.5 188.9c9.4 8.3 23.7 8.3 33.1 0L480 169.2V144c0-8.8-7.2-16-16-16zm-24.9 222.9c-6.7 0-13.3-2.2-18.9-6.5l-127.1-103.6-127.1 103.6c-10.4 8.5-25.6 8.5-36 0L55 350.4c-11.2-8.5-13.5-24.7-5-35.9s24.7-13.5 35.9-5l127.1 103.6 127.1-103.6c11.2-8.5 27.4-6.2 35.9 5s6.2 27.4-5 35.9l-127.1 103.6c-15.6 12.7-37.4 12.7-53 0L18.9 337.4C6.9 327.5 0 311.2 0 294v-44c0-26.5 21.5-48 48-48h416c26.5 0 48 21.5 48 48v44c0 17.2-6.9 33.5-18.9 43.4l-127.1 103.6c-15.6 12.7-37.4 12.7-53 0z"/>
+      </svg>
     url: 'mailto:xhao6@uw.edu'
     label: E-mail Me
   - icon: brands/x
