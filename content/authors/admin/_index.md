@@ -32,21 +32,21 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: brands/envelope
+  - icon: assets\media\icons\envelope.svg
     url: 'mailto:xhao6@uw.edu'
     label: E-mail Me
-  # - icon: brands/x
-  #   url: https://twitter.com/GetResearchDev
-  # - icon: brands/instagram
-  #   url: https://www.instagram.com/zach_6688/
+  - icon: brands/x
+    url: https://twitter.com/GetResearchDev
+  - icon: brands/instagram
+    url: https://www.instagram.com/zach_6688/
   - icon: brands/github
     url: https://github.com/Xizhe-Hao
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/zach-xizhe-hao-b27012277/
-  # - icon: academicons/google-scholar
-  #   url: https://scholar.google.com/
-  # - icon: academicons/orcid
-  #   url: https://orcid.org/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/
+  - icon: academicons/orcid
+    url: https://orcid.org/
 
 interests:
   - Embedded Systems
