@@ -54,6 +54,12 @@ interests:
   - Artificial Intelligence and Machine Learning
 
 education:
+  - area: MS Electrical and Computer Engineering
+    institution: University of Washington - Seattle
+    date_start: 2024-09-25
+    date_end: 2026-06-30
+
+
   - area: B.Eng  Automation
     institution: Southern University of Science and Techonology
     date_start: 2020-09-01
@@ -74,10 +80,6 @@ education:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
 
-  - area: MS Electrical and Computer Engineering
-    institution: University of Washington - Seattle
-    date_start: 2024-09-25
-    date_end: 2026-06-30
   #   summary: |
   #     GPA: 3.8/4.0
 
