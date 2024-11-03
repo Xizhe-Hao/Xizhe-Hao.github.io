@@ -64,9 +64,9 @@ sections:
           - project
         exclude_featured: false
     design:
-      spacing:
-    # Customize the section spacing. Order is top, right, bottom, left.
-      padding: ['20px', '0', '20px', '0']
+    #   spacing:
+    # # Customize the section spacing. Order is top, right, bottom, left.
+    #   padding: ['20px', '0', '20px', '0']
       view: article-grid
       columns: 2
 
