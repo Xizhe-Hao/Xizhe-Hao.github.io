@@ -67,6 +67,18 @@ sections:
       view: article-grid
       columns: 2
 
+  - block: collection
+    content:
+      title: Work Experiences
+      text: ""
+      filters:
+        folders:
+          - project
+        exclude_featured: false
+    design:
+      view: article-grid
+      columns: 2
+
   # - block: collection
   #   id: talks
   #   content:
@@ -80,11 +92,11 @@ sections:
   - block: collection
     id: news
     content:
-      title: Experience
+      title: Recent News
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
-      page_type: experience
+      page_type: post
       # Choose how many pages you would like to display (0 = all pages)
       count: 5
       # Filter on criteria
@@ -106,6 +118,7 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+        
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
