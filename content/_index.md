@@ -75,13 +75,23 @@ sections:
       title: 'Work Experience'
       subtitle: ''
       text: |-
-        Founder  
+        **Founder**  
         Shenzhen Suishi Technology Co, Ltd.  
-        April 2023 – June 2024
+        *April 2023 – June 2024*
 
-        - Platform Development: Launched a comprehensive campus special offer platform, partnering with major platforms (Meituan, Taobao, Jingdong) to provide college students with exclusive discounts on food, entertainment, and online shopping.
-        - User Experience & Interface Design: Mapped user journeys to understand user needs, designed and implemented the front end of a WeChat mini-program using JavaScript and Wechat Devtools.
-        - Data Analysis & Strategic Planning: Used Tableau for data visualization, analyzing user trends and behaviors to inform financial management and company strategy; implemented UI enhancements and functionality optimizations in mini-programs to boost user engagement.
+        - 🌐 **Platform Development**: Launched a comprehensive campus offer platform, partnering with major platforms (Meituan, Taobao, Jingdong) to provide college students with exclusive discounts on food, entertainment, and online shopping.  
+          **Impact**: +5,000 active users within the first 3 months.
+
+        - 🎨 **User Experience & Interface Design**: Mapped user journeys to understand user needs, designed and implemented the front end of a WeChat mini-program using JavaScript and Wechat Devtools, ensuring a smooth and intuitive user experience.  
+          **Impact**: Boosted user engagement by 30%.
+
+        - 📊 **Data Analysis & Strategic Planning**: Used Tableau for data visualization, analyzing user trends and behaviors to inform financial management and company strategy. Implemented UI enhancements and functionality optimizations in mini-programs to keep users engaged.  
+          **Impact**: Increased session duration by 20%.
+
+        - 📝 **WeChat Public Account Operation & Content Creation**: Created and managed content for the company’s WeChat public account, focusing on topics relevant to college student growth and education. Authored a popular article on university student development, achieving over 68,000 views on a single post.  
+          **Impact**: Significantly enhanced brand visibility and audience engagement.
+
+
 
     design:
       columns: '1'
