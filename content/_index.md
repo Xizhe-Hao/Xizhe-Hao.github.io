@@ -64,6 +64,9 @@ sections:
           - project
         exclude_featured: false
     design:
+      spacing:
+    # Customize the section spacing. Order is top, right, bottom, left.
+      padding: ['20px', '0', '20px', '0']
       view: article-grid
       columns: 2
 
@@ -73,7 +76,7 @@ sections:
       text: ""
       filters:
         folders:
-          - project
+          - work
         exclude_featured: false
     design:
       view: article-grid
@@ -118,7 +121,7 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
-        
+
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
