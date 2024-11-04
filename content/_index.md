@@ -70,23 +70,23 @@ sections:
       view: article-grid
       columns: 2
 
-  - block: markdown
-    content:
-      title: 'Work Experience'
-      subtitle: ''
-      text: |-
-        **Founder**  
-        Shenzhen Suishi Technology Co, Ltd.  
-        *April 2023 – June 2024*
+  # - block: markdown
+  #   content:
+  #     title: 'Work Experience'
+  #     subtitle: ''
+  #     text: |-
+  #       **Founder**  
+  #       Shenzhen Suishi Technology Co, Ltd.  
+  #       *April 2023 – June 2024*
 
-        - 🌐 **Platform Development**: Launched a comprehensive campus offer platform, partnering with major platforms (Meituan, Taobao, Jingdong) to provide college students with exclusive discounts on food, entertainment, and online shopping.  
+  #       - 🌐 **Platform Development**: Launched a comprehensive campus offer platform, partnering with major platforms (Meituan, Taobao, Jingdong) to provide college students with exclusive discounts on food, entertainment, and online shopping.  
 
 
-        - 🎨 **User Experience & Interface Design**: Mapped user journeys to understand user needs, designed and implemented the front end of a WeChat mini-program using JavaScript and Wechat Devtools, ensuring a smooth and intuitive user experience.  
+  #       - 🎨 **User Experience & Interface Design**: Mapped user journeys to understand user needs, designed and implemented the front end of a WeChat mini-program using JavaScript and Wechat Devtools, ensuring a smooth and intuitive user experience.  
 
-        - 📊 **Data Analysis & Strategic Planning**: Used Tableau for data visualization, analyzing user trends and behaviors to inform financial management and company strategy. Implemented UI enhancements and functionality optimizations in mini-programs to keep users engaged.  
+  #       - 📊 **Data Analysis & Strategic Planning**: Used Tableau for data visualization, analyzing user trends and behaviors to inform financial management and company strategy. Implemented UI enhancements and functionality optimizations in mini-programs to keep users engaged.  
 
-        - 📝 **WeChat Public Account Operation & Content Creation**: Created and managed content for the company’s WeChat public account, focusing on topics relevant to college student growth and education. Authored a popular article on university student development, achieving over 68,000 views on a single post. 
+  #       - 📝 **WeChat Public Account Operation & Content Creation**: Created and managed content for the company’s WeChat public account, focusing on topics relevant to college student growth and education. Authored a popular article on university student development, achieving over 68,000 views on a single post. 
 
     design:
       columns: '1'

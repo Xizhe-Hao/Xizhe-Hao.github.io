@@ -65,7 +65,7 @@ education:
     date_start: 2020-09-01
     date_end: 2024-06-30
     summary: |
-      Grade: 86.24/100 
+      Grade: 86.24/100 (3.51/4)
 
 
       Thesis on **_Intelligent Fully Automatic Flowerpot Based on Micropump_**, integrating technologies such as micropumps, intelligent sensors, large models, and IoT cloud platforms. This system intelligently monitors and regulates the plant growth environment, achieving precise control, providing the most suitable growth conditions, and reducing water waste. Supervised by <a href="https://scholar.google.co.uk/citations?user=jWmF7IQAAAAJ&hl=en">Prof. Guoping Liu</a> and <a href="https://scholar.google.com/citations?user=sNve2YAAAAAJ&hl=zh-CN">Prof. Xing Cheng</a> of SUSTech.
@@ -225,4 +225,4 @@ awards:
 
 ## About Me
 
-Zach(Xizhe) Hao is currently a Master's student in Electrical and Computer Engineering at the University of Washington. His research interests include embedded systems, AIoT, and machine learning. Besides, he is genuinely interested in exploring how technology and business can be integrated to address real-world challenges and contribute positively to society. Feel free to reach out to him!
+Hello! I am a first-year Master’s student in Electrical and Computer Engineering at the University of Washington, driven by a passion for advancing research in intelligent systems and IoT applications. I completed my undergraduate degree at the <a href="https://www.sustech.edu.cn/en/">Southern University of Science and Technology, where I had the privilege of working on my thesis under <a href="https://scholar.google.co.uk/citations?user=jWmF7IQAAAAJ&hl=en">Prof. Guoping Liu</a> and <a href="https://scholar.google.com/citations?user=sNve2YAAAAAJ&hl=zh-CN">Prof. Xing Cheng</a>. My project, titled “Intelligent Fully Automatic Flowerpot Based on Micropump,” used micropump technology, sensors, and IoT to create an automated system for optimizing plant growth. I am excited to build on this experience and explore impactful applications of technology in my graduate studies.
