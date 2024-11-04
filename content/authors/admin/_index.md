@@ -219,12 +219,12 @@ awards:
     awarder: SUSTech
     # icon: edx
     summary: |
-      Awarded to the top 10 students among 833, recognizing perseverance, self-improvement, and impactful contributions to community and field of study.  
+      Awarded to the **top 10 students among 833 college students**, recognizing perseverance, self-improvement, and impactful contributions to community and field of study.  
       
   - title: The Merit Student Scholarship
     date: '2022-11-30'
     awarder: SUSTech
-    icon: edx
+    # icon: edx
     summary: |
       Awarded to students who demonstrate academic excellence and strong personal development.
 
@@ -235,7 +235,7 @@ awards:
     awarder: SUSTech
     # icon: datacamp
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Recognizes individuals or teams who exhibit outstanding creativity and entrepreneurial spirit, showcasing innovative solutions and business acumen that contribute to advancing technology or addressing real-world challenges.
 ---
 
 ## About Me
