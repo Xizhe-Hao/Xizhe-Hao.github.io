@@ -205,37 +205,37 @@ awards:
 
 
 
-  - title: Industry Integration and Innovation Competition
-    # url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-8-23'
-    awarder: Ministry of Industry and Information Technology
-    icon: coursera
-    summary: |
-      Awarded Second Prize in the South China Division for demonstrating exceptional skill in bridging practical industry applications with innovative approaches to problem-solving.
+  # - title: Industry Integration and Innovation Competition
+  #   # url: https://www.coursera.org/learn/neural-networks-deep-learning
+  #   date: '2023-8-23'
+  #   awarder: Ministry of Industry and Information Technology
+  #   icon: coursera
+  #   summary: |
+  #     Awarded Second Prize in the South China Division for demonstrating exceptional skill in bridging practical industry applications with innovative approaches to problem-solving.
 
 
-  - title: Ruoshui Scholarship
-    date: '2023-6-30'
-    awarder: SUSTech
-    icon: edx
-    summary: |
-      Awarded to the top 10 students among 833, recognizing perseverance, self-improvement, and impactful contributions to community and field of study.  
+  # - title: Ruoshui Scholarship
+  #   date: '2023-6-30'
+  #   awarder: SUSTech
+  #   icon: edx
+  #   summary: |
+  #     Awarded to the top 10 students among 833, recognizing perseverance, self-improvement, and impactful contributions to community and field of study.  
       
-  - title: The Merit Student Scholarship
-    date: '2022-11-30'
-    awarder: SUSTech
-    icon: edx
-    summary: |
-      Awarded to students who demonstrate academic excellence and strong personal development.
+  # - title: The Merit Student Scholarship
+  #   date: '2022-11-30'
+  #   awarder: SUSTech
+  #   icon: edx
+  #   summary: |
+  #     Awarded to students who demonstrate academic excellence and strong personal development.
 
-  - title: Innovation and Entrepreneurship Award
-    # url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    # certificate_url: https://www.datacamp.com
-    date: '2021-05-21'
-    awarder: SUSTech
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+  # - title: Innovation and Entrepreneurship Award
+  #   # url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+  #   # certificate_url: https://www.datacamp.com
+  #   date: '2021-05-21'
+  #   awarder: SUSTech
+  #   icon: datacamp
+  #   summary: |
+  #     Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
 ## About Me
