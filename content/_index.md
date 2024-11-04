@@ -88,8 +88,8 @@ sections:
 
   #       - 📝 **WeChat Public Account Operation & Content Creation**: Created and managed content for the company’s WeChat public account, focusing on topics relevant to college student growth and education. Authored a popular article on university student development, achieving over 68,000 views on a single post. 
 
-    design:
-      columns: '1'
+    # design:
+    #   columns: '1'
   # - block: collection
   #   id: talks
   #   content:
