@@ -26,23 +26,9 @@ In today’s fast-paced world, food waste has become a growing concern, and many
 
 With these goals, the Smart Refrigerator delivers a blend of convenience, sustainability, and innovation, ensuring smarter food management for households and businesses alike.
 
-## 0. Download Poster
-
-📄 **Download the Project Poster**:  
-[![Download Poster](download.png)](Poster_intelligent_fridge.pdf)  
-*Click the button above to access the detailed project poster in PDF format.*
-
-sections:
-  - block: download-poster
-    content:
-      title: Download Poster
-      description: >
-        Click the button below to download the full project poster in PDF format. 
-        The poster provides an in-depth visual overview of the Smart Refrigerator 
-        system, including technical details, diagrams, and project highlights.
-      button:
-        text: Download Poster
-        url: Poster_intelligent_fridge.pdf
+## 0. Poster Download 
+📄 **[Download the Project Poster](Poster_intelligent_fridge.pdf)**  
+*Click the text above to access the detailed project poster in PDF format.*
 
 
 ## 1. System Roadmap and Core Functionalities
@@ -66,6 +52,7 @@ This system relies on several key hardware components to collect and transmit da
 
 - **Weight Sensor (HX711)**: Accurately monitors the weight of stored food items.
 - **Communication Systems**: Uses both **serial** and **radio communication** to transfer data between components.
+![hardware_roadmap](image.png)
 - **AI Model Roadmap**: 
   1. Weight data collection.
   2. Initial AI predictions on the Raspberry Pi.
@@ -73,7 +60,7 @@ This system relies on several key hardware components to collect and transmit da
   4. Raspberry Pi captures images with Pi Camera.
   5. Updates are made to a cloud-based web database.
 
-<!-- ![Hardware Setup](path/to/hardware-setup-image.png)  
+![Hardware Setup](path/to/hardware-setup-image.png)  
 *Figure 2: Hardware components setup and weight sensors (HX711)*
 
 ---
@@ -85,7 +72,16 @@ The Smart Refrigerator uses a **pre-trained AI model** to assess food expiration
 - **Confusion Matrix** and **F1-Confidence Curve** to track prediction performance.
 
 ![AI Model Roadmap](path/to/ai-model-roadmap-image.png)  
+![Confusion Matrix Normalized](image-1.png)
 *Figure 3: AI model structure and validation matrices*
+
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="image1.png" alt="Image 1" style="width: 45%; margin-right: 10px;",*Figure 3: AI model structure and validation matrices*>
+  <img src="image2.png" alt="Image 2" style="width: 45%;">
+</div>
+
+
 
 ### Prediction Process:
 1. **Data Collection**: Information from sensors is processed by the AI model.
@@ -134,7 +130,7 @@ The Smart Refrigerator project integrates several advanced technologies:
 - **Flask**: Backend API framework for managing database interactions.
 
 ![Technology Stack](path/to/technology-stack-image.png)  
-*Figure 7: Technology stack and backend architecture* -->
+*Figure 7: Technology stack and backend architecture*
 
 ---
 
