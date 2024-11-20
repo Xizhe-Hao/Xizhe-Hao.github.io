@@ -40,14 +40,11 @@ The system is built on a **Raspberry Pi** platform, integrated with sensors and 
 - **Proactive Alerts**: Sends warnings for expired items or abnormal environmental conditions.
 - **AI-Driven Suggestions**: Recommends recipes based on available ingredients.
 
-<!-- ![System Roadmap](Roadmap.png)  
-*Figure 1: System architecture with AI and IoT integration* -->
 
-<figure style="text-align: center; margin: 0;">
-  ![System Roadmap](Roadmap.png)
-  <figcaption style="font-size: 14px; color: gray; margin-top: 5px;">Figure 1: System architecture with AI and IoT integration</figcaption>
+<figure style="text-align: center; margin-bottom: 20px;">
+  <img src="Roadmap.png" alt="System Roadmap" style="width: 85%; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray;">Figure 1: System architecture with AI and IoT integration</figcaption>
 </figure>
-
 ---
 
 ## 2. Hardware Components
@@ -80,12 +77,12 @@ The Smart Refrigerator uses a **Pre-trained YOLOv8 model** to assess food expira
 - **Confusion Matrix** and **F1-Confidence Curve** to track prediction performance.
 
 <figure style="text-align: center; margin-bottom: 20px;">
-  <img src="Confusion Matrix.png" alt="Confusion Matrix" style="width: 70%; margin: 0 auto;">
+  <img src="Confusion Matrix.png" alt="Confusion Matrix" style="width: 85%; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray;">Figure 2: Confusion Matrix for YOLOv8 Model</figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 20px;">
-  <img src="F1-Confidence Curve.png" alt="F1-Confidence Curve" style="width: 70%; margin: 0 auto;">
+  <img src="F1-Confidence Curve.png" alt="F1-Confidence Curve" style="width: 85%; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray;">Figure 3: F1-Confidence Curve Showing Model Performance</figcaption>
 </figure>
 
@@ -112,8 +109,10 @@ The AI integration follows a step-by-step roadmap to achieve accurate and real-t
 The YOLOv8 model effectively detects and classifies food items in real-time. The **validation predictions** show:
 - Successful identification of common food items like apples, bananas, carrots, and fish with high confidence levels.
 - Bounding boxes accurately localize each item in the images, enabling precise tracking.
-![Validation Predictions](YOLOv8_food_example.png)  
-*Figure 4: Validated YOLOv8 predictions for some food items.*
+<figure style="text-align: center; margin-bottom: 20px;">
+  <img src="YOLOv8_food_example.png" alt="Validation Predictions" style="width: 85%; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray;">Figure 4: Validated YOLOv8 predictions for some food items.</figcaption>
+</figure>
 
 ---
 
@@ -149,16 +148,22 @@ The system features a **web-based interface** that allows users to interact with
 
 #### Key Pages
 1. **Index Page**: Provides an overview of fridge contents, environmental conditions, and food expiration warnings.
-   ![Index Page](Index_page.png)
-   *Figure 5: Web Interface - Index Page showing fridge contents and expiration alerts*
+<figure style="text-align: center; margin-bottom: 20px;">
+  <img src="Index_page.png" alt="Index Page" style="width: 85%; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray;">Figure 5: Web Interface - Index Page showing fridge contents and expiration alerts.</figcaption>
+</figure>
 
 2. **Table List Page**: Displays stored food data, including weight, names, and timestamps.
-   ![Table List Page](Data_page.png) 
-   *Figure 6: Table list displaying detailed storage data*
+<figure style="text-align: center; margin-bottom: 20px;">
+  <img src="Data_page.png" alt="Table List Page" style="width: 85%; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray;">Figure 6: Table list displaying detailed storage data.</figcaption>
+</figure>
 
 3. **ChatGPT Recommendation Page**: Generates recommendations for recipes or meals based on available fridge ingredients.
-   ![Recommendation Page](Recommendation_page.png)
-   *Figure 7: Recommendations based on current ingredients*
+<figure style="text-align: center; margin-bottom: 20px;">
+  <img src="Recommendation_page.png" alt="Recommendation Page" style="width: 85%; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray;">Figure 7: Recommendations based on current ingredients.</figcaption>
+</figure>
 
 ---
 
