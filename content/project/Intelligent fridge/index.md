@@ -45,7 +45,7 @@ The system is built on a **Raspberry Pi** platform, integrated with sensors and 
   <img src="Roadmap.png" alt="System Roadmap" style="width: 85%; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray;">Figure 1: System architecture with AI and IoT integration</figcaption>
 </figure>
----
+
 
 ## 2. Hardware Components
 
