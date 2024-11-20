@@ -32,6 +32,18 @@ With these goals, the Smart Refrigerator delivers a blend of convenience, sustai
 [![Download Poster](download.png)](Poster_intelligent_fridge.pdf)  
 *Click the button above to access the detailed project poster in PDF format.*
 
+sections:
+  - block: download-poster
+    content:
+      title: Download Poster
+      description: >
+        Click the button below to download the full project poster in PDF format. 
+        The poster provides an in-depth visual overview of the Smart Refrigerator 
+        system, including technical details, diagrams, and project highlights.
+      button:
+        text: Download Poster
+        url: Poster_intelligent_fridge.pdf
+
 
 ## 1. System Roadmap and Core Functionalities
 
