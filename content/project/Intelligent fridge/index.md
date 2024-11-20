@@ -28,7 +28,6 @@ With these goals, the Smart Refrigerator delivers a blend of convenience, sustai
 
 ## 0. Poster Download 
 📄 **[Download the Project Poster](Poster_intelligent_fridge.pdf)**  
-*Click the text above to access the detailed project poster in PDF format.*
 
 
 ## 1. System Roadmap and Core Functionalities
@@ -48,44 +47,83 @@ The system is built on a **Raspberry Pi** platform, integrated with sensors and 
 
 ## 2. Hardware Components
 
-This system relies on several key hardware components to collect and transmit data accurately:
+The hardware setup is designed to ensure seamless integration and functionality:
+- Sensors collect environmental and food-related data.
+- Data is transmitted to the Raspberry Pi through ESP32 and Micro:bit modules.
+- The Raspberry Pi acts as the central processing hub, analyzing data and interfacing with the AI and web-based components.
+![Complete Hardware Setup](Roadmap.png)  
+*Figure 2: Overall hardware architecture for data collection and communication.*
 
-- **Weight Sensor (HX711)**: Accurately monitors the weight of stored food items.
-- **Communication Systems**: Uses both **serial** and **radio communication** to transfer data between components.
-![hardware_roadmap](image.png)
-- **AI Model Roadmap**: 
-  1. Weight data collection.
-  2. Initial AI predictions on the Raspberry Pi.
-  3. Uses a pre-trained AI model on a PC.
-  4. Raspberry Pi captures images with Pi Camera.
-  5. Updates are made to a cloud-based web database.
+### Key Sensors and Modules:
+1. **Environmental Sensors**:
+   - **DHT11**: Measures temperature and humidity to ensure optimal storage conditions for food items.
+   - **HC-SR04**: Ultrasonic sensor for detecting door status and measuring distances.
+   - **Passive Buzzer and RGB LED**: Provide visual and auditory alerts for warnings, such as when the refrigerator door remains open.
+   - **Weight Sensor (HX711)**: Collects weight data of stored food items with precision, enabling effective inventory management.  
 
-![Hardware Setup](path/to/hardware-setup-image.png)  
-*Figure 2: Hardware components setup and weight sensors (HX711)*
+
+2. **Image Capture and Processing**:
+   - **Pi Camera**: Captures images of food items for further processing and classification using AI models.
+
+3. **Communication Modules**:
+   - **ESP32**: Gathers sensor data (temperature, humidity, door status) and transmits it to the Raspberry Pi via MQTT protocol for real-time monitoring and warnings.
+   - **Micro:bit Modules**: Enable **serial** and **radio communication** for capturing, weighing, and managing inventory.
+
+
+---
 
 ---
 
 ## 3. Artificial Intelligence Integration
 
-The Smart Refrigerator uses a **pre-trained AI model** to assess food expiration and predict freshness. The Raspberry Pi’s AI capabilities enable real-time predictions with high accuracy, evaluated through:
-
+The Smart Refrigerator uses a **Pre-trained YOLOv8 model** to assess food expiration and predict freshness. The Raspberry Pi’s AI capabilities enable real-time predictions with high accuracy, evaluated through: 
 - **Confusion Matrix** and **F1-Confidence Curve** to track prediction performance.
 
-![AI Model Roadmap](path/to/ai-model-roadmap-image.png)  
-![Confusion Matrix Normalized](image-1.png)
+
+<!-- ![Confusion Matrix Normalized](Confusion Matrix.png)
 *Figure 3: AI model structure and validation matrices*
 
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="image1.png" alt="Image 1" style="width: 45%; margin-right: 10px;",*Figure 3: AI model structure and validation matrices*>
-  <img src="image2.png" alt="Image 2" style="width: 45%;">
+  <img src="Confusion Matrix.png" alt="Image 1" style="width: 45%; margin-right: 10px;",*Figure 3: AI model structure and validation matrices*>
+  <img src="F1-Confidence Curve.png" alt="Image 2" style="width: 45%;">
+</div> -->
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+  <figure style="width: 45%; margin-right: 10px; text-align: center;">
+    <img src="Confusion Matrix.png" alt="Confusion Matrix" style="width: 100%;">
+    <figcaption style="font-size: 14px; color: gray;">Figure 3: Confusion Matrix for YOLOv8 Model</figcaption>
+  </figure>
+  <figure style="width: 45%; text-align: center;">
+    <img src="F1-Confidence Curve.png" alt="F1-Confidence Curve" style="width: 100%;">
+    <figcaption style="font-size: 14px; color: gray;">Figure 4: F1-Confidence Curve Showing Model Performance</figcaption>
+  </figure>
 </div>
 
+### AI Model Workflow
+The AI integration follows a step-by-step roadmap to achieve accurate and real-time predictions:
 
+1. **Step 0: Pre-trained AI Model on PC**  
+   A YOLOv8 model is pre-trained on a labeled dataset of various food categories to detect and classify food items accurately.
 
-### Prediction Process:
-1. **Data Collection**: Information from sensors is processed by the AI model.
-2. **Validation**: The AI predictions are validated and updated periodically to improve model accuracy.
+2. **Step 1: Pi Camera Capture**  
+   The Raspberry Pi utilizes the Pi Camera to capture real-time images of food items stored in the refrigerator.
+
+3. **Step 2: AI Predictions on Raspberry Pi**  
+   YOLOv8 is deployed on the Raspberry Pi for on-device inference. It detects food items, classifies them into predefined categories, and predicts the freshness.
+
+4. **Step 3: Weight Information Collector**  
+   The system correlates weight data collected via the HX711 sensor with the visual classification to ensure precise inventory management.
+
+5. **Step 4: Update Data on Web Database**  
+   The classified food data and weight measurements are stored in a cloud-based web database for further analysis and user access.
+
+### Valid Predictions
+The YOLOv8 model effectively detects and classifies food items in real-time. The **validation predictions** show:
+- Successful identification of common food items like apples, bananas, carrots, and fish with high confidence levels.
+- Bounding boxes accurately localize each item in the images, enabling precise tracking.
+![Validation Predictions](various food example..png)  
+*Figure 5: Validated YOLOv8 predictions for some food items.*
 
 ---
 
@@ -93,44 +131,45 @@ The Smart Refrigerator uses a **pre-trained AI model** to assess food expiration
 
 The system features a **web-based interface** that allows users to interact with the Smart Refrigerator's data.
 
-### Web Service Structure:
-- A multi-tiered approach for data handling, from **data collection** to **user presentation**.
-- **Database**: Built with MySQL and PyMySQL, managed through SQLAlchemy.
-- **Data Tables**: 
-  - `RealtimeData`: Current fridge data.
-  - `FoodLibrary`: Reference data for food storage times.
-  - `Storage`: Data on food items in the fridge.
+### Features of the Web Interface
 
-### User Interface:
-Designed with **HTML, JavaScript, and CSS** for a smooth user experience.
+1. **Dynamic Dashboard**:
+   - Displays real-time data on:
+     - Environmental conditions (temperature, humidity).
+     - Fridge door status (open/closed).
+     - Alerts for expiring or expired food items.
+   - Powered by **HTML, CSS, and JavaScript** for a responsive and interactive experience.
+
+2. **Food Inventory Management**:
+   - Lists stored food items along with weight, timestamp, and expiration status.
+   - Allows users to:
+     - Add or remove items from the inventory.
+     - View item-specific storage recommendations (e.g., temperature, shelf life).
+
+3. **AI-Powered Recipe Suggestions**:
+   - Leverages **ChatGPT** to provide recipe recommendations based on available ingredients.
+   - Recipes are dynamically generated using inventory data and a predefined recipe rule set.
+
+4. **User-Friendly Alerts**:
+   - Sends notifications for:
+     - Food nearing expiration.
+     - Abnormal fridge conditions (e.g., high temperature or humidity).
+   - Uses visual cues (color-coded indicators) for quick recognition of issues.
+
+
 
 #### Key Pages:
 1. **Index Page**: Provides an overview of fridge contents, environmental conditions, and food expiration warnings.
-   ![Index Page](path/to/index-page-image.png)  
+   ![Index Page](index page.png)
    *Figure 4: Web Interface - Index Page showing fridge contents and expiration alerts*
 
 2. **Table List Page**: Displays stored food data, including weight, names, and timestamps.
-   ![Table List Page](path/to/table-list-image.png)  
+   ![Table List Page](Data_page.png) 
    *Figure 5: Table list displaying detailed storage data*
 
 3. **ChatGPT Recommendation Page**: Generates recommendations for recipes or meals based on available fridge ingredients.
-   ![Recommendation Page](path/to/recommendation-page-image.png)  
+   ![Recommendation Page](Recommendation_page.png)
    *Figure 6: Recommendations based on current ingredients*
-
-#### Additional Functionalities:
-- **Insert & Delete Operations**: Allows for adding and removing food items. The system identifies the closest item by weight (within ±20g) for deletion.
-
----
-
-## 5. References and Technologies
-
-The Smart Refrigerator project integrates several advanced technologies:
-- **YOLOv8**: Supports image-based AI model processing.
-- **Huawei Cloud**: For remote storage and data handling.
-- **Flask**: Backend API framework for managing database interactions.
-
-![Technology Stack](path/to/technology-stack-image.png)  
-*Figure 7: Technology stack and backend architecture*
 
 ---
 
