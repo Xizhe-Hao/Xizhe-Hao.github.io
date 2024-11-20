@@ -40,8 +40,13 @@ The system is built on a **Raspberry Pi** platform, integrated with sensors and 
 - **Proactive Alerts**: Sends warnings for expired items or abnormal environmental conditions.
 - **AI-Driven Suggestions**: Recommends recipes based on available ingredients.
 
-![System Roadmap](Roadmap.png)  
-*Figure 1: System architecture with AI and IoT integration*
+<!-- ![System Roadmap](Roadmap.png)  
+*Figure 1: System architecture with AI and IoT integration* -->
+
+<figure style="text-align: center; margin: 0;">
+  ![System Roadmap](Roadmap.png)
+  <figcaption style="font-size: 14px; color: gray; margin-top: 5px;">Figure 1: System architecture with AI and IoT integration</figcaption>
+</figure>
 
 ---
 
@@ -51,8 +56,6 @@ The hardware setup is designed to ensure seamless integration and functionality:
 - Sensors collect environmental and food-related data.
 - Data is transmitted to the Raspberry Pi through ESP32 and Micro:bit modules.
 - The Raspberry Pi acts as the central processing hub, analyzing data and interfacing with the AI and web-based components.
-![Complete Hardware Setup](Roadmap.png)  
-*Figure 2: Overall hardware architecture for data collection and communication.*
 
 ### Key Sensors and Modules:
 1. **Environmental Sensors**:
@@ -69,9 +72,6 @@ The hardware setup is designed to ensure seamless integration and functionality:
    - **ESP32**: Gathers sensor data (temperature, humidity, door status) and transmits it to the Raspberry Pi via MQTT protocol for real-time monitoring and warnings.
    - **Micro:bit Modules**: Enable **serial** and **radio communication** for capturing, weighing, and managing inventory.
 
-
----
-
 ---
 
 ## 3. Artificial Intelligence Integration
@@ -79,26 +79,16 @@ The hardware setup is designed to ensure seamless integration and functionality:
 The Smart Refrigerator uses a **Pre-trained YOLOv8 model** to assess food expiration and predict freshness. The Raspberry Pi’s AI capabilities enable real-time predictions with high accuracy, evaluated through: 
 - **Confusion Matrix** and **F1-Confidence Curve** to track prediction performance.
 
+<figure style="text-align: center; margin-bottom: 20px;">
+  <img src="Confusion Matrix.png" alt="Confusion Matrix" style="width: 70%; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray;">Figure 2: Confusion Matrix for YOLOv8 Model</figcaption>
+</figure>
 
-<!-- ![Confusion Matrix Normalized](Confusion Matrix.png)
-*Figure 3: AI model structure and validation matrices*
+<figure style="text-align: center; margin-bottom: 20px;">
+  <img src="F1-Confidence Curve.png" alt="F1-Confidence Curve" style="width: 70%; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray;">Figure 3: F1-Confidence Curve Showing Model Performance</figcaption>
+</figure>
 
-
-<div style="display: flex; justify-content: space-between;">
-  <img src="Confusion Matrix.png" alt="Image 1" style="width: 45%; margin-right: 10px;",*Figure 3: AI model structure and validation matrices*>
-  <img src="F1-Confidence Curve.png" alt="Image 2" style="width: 45%;">
-</div> -->
-
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-  <figure style="width: 45%; margin-right: 10px; text-align: center;">
-    <img src="Confusion Matrix.png" alt="Confusion Matrix" style="width: 100%;">
-    <figcaption style="font-size: 14px; color: gray;">Figure 3: Confusion Matrix for YOLOv8 Model</figcaption>
-  </figure>
-  <figure style="width: 45%; text-align: center;">
-    <img src="F1-Confidence Curve.png" alt="F1-Confidence Curve" style="width: 100%;">
-    <figcaption style="font-size: 14px; color: gray;">Figure 4: F1-Confidence Curve Showing Model Performance</figcaption>
-  </figure>
-</div>
 
 ### AI Model Workflow
 The AI integration follows a step-by-step roadmap to achieve accurate and real-time predictions:
@@ -122,8 +112,8 @@ The AI integration follows a step-by-step roadmap to achieve accurate and real-t
 The YOLOv8 model effectively detects and classifies food items in real-time. The **validation predictions** show:
 - Successful identification of common food items like apples, bananas, carrots, and fish with high confidence levels.
 - Bounding boxes accurately localize each item in the images, enabling precise tracking.
-![Validation Predictions](various food example..png)  
-*Figure 5: Validated YOLOv8 predictions for some food items.*
+![Validation Predictions](YOLOv8_food_example.png)  
+*Figure 4: Validated YOLOv8 predictions for some food items.*
 
 ---
 
@@ -157,19 +147,18 @@ The system features a **web-based interface** that allows users to interact with
    - Uses visual cues (color-coded indicators) for quick recognition of issues.
 
 
-
-#### Key Pages:
+#### Key Pages
 1. **Index Page**: Provides an overview of fridge contents, environmental conditions, and food expiration warnings.
-   ![Index Page](index page.png)
-   *Figure 4: Web Interface - Index Page showing fridge contents and expiration alerts*
+   ![Index Page](Index_page.png)
+   *Figure 5: Web Interface - Index Page showing fridge contents and expiration alerts*
 
 2. **Table List Page**: Displays stored food data, including weight, names, and timestamps.
    ![Table List Page](Data_page.png) 
-   *Figure 5: Table list displaying detailed storage data*
+   *Figure 6: Table list displaying detailed storage data*
 
 3. **ChatGPT Recommendation Page**: Generates recommendations for recipes or meals based on available fridge ingredients.
    ![Recommendation Page](Recommendation_page.png)
-   *Figure 6: Recommendations based on current ingredients*
+   *Figure 7: Recommendations based on current ingredients*
 
 ---
 
