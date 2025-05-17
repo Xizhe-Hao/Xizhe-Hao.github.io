@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/CV_Xizhe Hao.pdf
+        url: uploads/CV_Zach Hao.pdf
     design:
       css_class: dark
       background:
