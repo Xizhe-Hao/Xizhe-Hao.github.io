@@ -38,18 +38,9 @@ header:
       text: "Home"
 
 
-# Localization
-locale:
-  date_format: 'May 17, 2025'
-  time_format: '5:17 PM'
-
-# Site features
-features:
-  math:
-    enable: false
-  privacy_pack:
-    enable: false
-
+hooks:
+  footer_start:true
+  
 # Site footer
 footer:
   copyright:
@@ -61,3 +52,14 @@ footer:
       allow_commercial: false
   powered_by: false
 
+# Localization
+locale:
+  date_format: 'May 17, 2025'
+  time_format: '5:17 PM'
+
+# Site features
+features:
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
