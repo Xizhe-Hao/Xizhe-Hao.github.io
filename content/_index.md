@@ -13,7 +13,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: "<span style='font-size:1.3em;font-weight:bold;'>Welcome! I'm Zach Hao</span><br>Graduate Student | Embedded Systems | AIoT | Machine Learning<br><span style='font-size:1.1em;'>Passionate about integrating technology and business to solve real-world problems.</span>"
+      text: "Hi! I am a first-year master's student in ECE at the University of Washington, currently working as a research assistant at the Ubiquitous Computing Lab. Before coming to UW, I completed my undergraduate degree at the <a href=\"https://www.sustech.edu.cn/en/\">Southern University of Science and Technology</a>, where I was mentored by <a href=\"https://scholar.google.co.uk/citations?user=jWmF7IQAAAAJ&hl=en\">Prof. Guoping Liu</a> and <a href=\"https://scholar.google.com/citations?user=sNve2YAAAAAJ&hl=zh-CN\">Prof. Xing Cheng</a>. "
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
