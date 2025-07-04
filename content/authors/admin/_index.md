@@ -115,7 +115,7 @@ work:
 
         - 📊 **Data Analysis & Strategic Planning**: Used Tableau for data visualization, analyzing user trends and behaviors to inform financial management and company strategy. Implemented UI enhancements and functionality optimizations in mini-programs to keep users engaged.  
 
-        - 📝 **WeChat Public Account Operation & Content Creation**: Created and managed content for the company’s WeChat public account, focusing on topics relevant to college student growth and education. Authored a popular article on university student development, achieving over 68,000 views on a single post. 
+        - 📝 **WeChat Public Account Operation & Content Creation**: Created and managed content for the company's WeChat public account, focusing on topics relevant to college student growth and education. Authored a popular article on university student development, achieving over 68,000 views on a single post. 
 
   - position: President
     company_name: News Agency of Southern University of Science and Technology
@@ -125,7 +125,7 @@ work:
     date_end: '2022-09-01'
     summary: |2-
       - Coordinated 100+ members to manage the official social media accounts of the university and its magazine
-      - Won the “Most Impactful University News Work” from China Youth Daily
+      - Won the "Most Impactful University News Work" from China Youth Daily
   
   - position: Volunteer
     company_name: News Agency of Southern University of Science and Technology
@@ -135,7 +135,7 @@ work:
     date_end: '2024-06-30'
     summary: |2-
       - Contributed 200+ hours across 50+ diverse events, enriching children's science literacy
-      - Awarded the “Top 10 Volunteer” from Southern University of Science and Technology in 2022
+      - Awarded the "Top 10 Volunteer" from Southern University of Science and Technology in 2022
   # - position: Backend Software Engineer
   #   company_name: X
   #   company_url: ''
@@ -240,4 +240,4 @@ awards:
 
 ## About Me
 
-Hi! I am a first-year Master’s student in ECE at the University of Washington. Before coming to UW, I completed my undergraduate degree at the <a href="https://www.sustech.edu.cn/en/">Southern University of Science and Technology</a>, where I worked under the mentorship of  <a href="https://scholar.google.co.uk/citations?user=jWmF7IQAAAAJ&hl=en">Prof. Guoping Liu</a> and <a href="https://scholar.google.com/citations?user=sNve2YAAAAAJ&hl=zh-CN">Prof. Xing Cheng</a>. My thesis, “Intelligent Fully Automatic Flowerpot Based on Micropump,” combined micropump technology, sensors, LLM, and IoT to automate plant growth optimization. I am excited to build on this experience and explore impactful applications of technology in my graduate studies.
+Hi! I am a first-year master's student in ECE at the University of Washington, currently working as a research assistant at the Ubiquitous Computing Lab. Before coming to UW, I completed my undergraduate degree at the <a href="https://www.sustech.edu.cn/en/">Southern University of Science and Technology</a>, where I was mentored by <a href="https://scholar.google.co.uk/citations?user=jWmF7IQAAAAJ&hl=en">Prof. Guoping Liu</a> and <a href="https://scholar.google.com/citations?user=sNve2YAAAAAJ&hl=zh-CN">Prof. Xing Cheng</a>. I am excited to build on this experience and explore impactful applications of technology in my graduate studies.
