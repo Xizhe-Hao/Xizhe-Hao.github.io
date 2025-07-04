@@ -13,7 +13,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: "Hi! I am a first-year master's student in ECE at the University of Washington, currently working as a research assistant at the Ubiquitous Computing Lab. Before coming to UW, I completed my undergraduate degree at the <a href=\"https://www.sustech.edu.cn/en/\">Southern University of Science and Technology</a>, where I was mentored by <a href=\"https://scholar.google.co.uk/citations?user=jWmF7IQAAAAJ&hl=en\">Prof. Guoping Liu</a> and <a href=\"https://scholar.google.com/citations?user=sNve2YAAAAAJ&hl=zh-CN\">Prof. Xing Cheng</a>. "
+      text: "Hi! I am a first-year master's student in ECE at the University of Washington, currently working as a research assistant at the Ubiquitous Computing Lab. Before coming to UW, I completed my undergraduate degree at the <a href=\"https://www.sustech.edu.cn/en/\">Southern University of Science and Technology</a>, where I was fortunupately mentored by <a href=\"https://scholar.google.co.uk/citations?user=jWmF7IQAAAAJ&hl=en\">Prof. Guoping Liu</a> and <a href=\"https://scholar.google.com/citations?user=sNve2YAAAAAJ&hl=zh-CN\">Prof. Xing Cheng</a>. "
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
@@ -40,13 +40,15 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        My research interests include Embedded systems, AIoT, and Machine Learning. 
-        
-        Besides, I'm genuinely interested in exploring how technology and business can be integrated to address real-world challenges and contribute positively to society.
-
-        Please reach out to collaborate 😃
+        My research interests include Embedded Systems, AIoT, and Machine Learning.
+        <br><br>
+        <span style='font-size:1.1em;'>I'm passionate about integrating technology and business to address real-world challenges and contribute positively to society.</span>
+        <br><br>
+        <a class='btn btn-primary' href='mailto:zachhao@uw.edu' style='margin-right:10px;'>Contact Me</a>
+        <a class='btn btn-outline' href='https://scholar.google.com/citations?user=YOUR_ID' target='_blank'>Google Scholar</a>
     design:
       columns: '1'
+      css_class: animated-section
 
   # - block: collection
   #   id: papers
@@ -63,17 +65,15 @@ sections:
   - block: collection
     content:
       title: Recent Projects
-      text: ""
+      text: "Check out some of my latest work!"
       filters:
         folders:
           - project
         exclude_featured: false
     design:
-    #   spacing:
-    # # Customize the section spacing. Order is top, right, bottom, left.
-    #   padding: ['20px', '0', '20px', '0']
-      view: article-grid
+      view: card-grid
       columns: 2
+      css_class: animated-section card-hover
 
   # - block: markdown
   #   content:
@@ -155,4 +155,30 @@ sections:
         # Card background color (CSS class)
         css_class: "bg-primary-700"
         css_style: ""
+
+  - block: markdown
+    content:
+      title: 'Contact Me'
+      subtitle: ''
+      text: |-
+        <form action="mailto:zachhao@uw.edu" method="POST" enctype="text/plain">
+          <input type="text" name="name" placeholder="Your Name" required style="margin-bottom:10px;width:100%;padding:8px;">
+          <input type="email" name="email" placeholder="Your Email" required style="margin-bottom:10px;width:100%;padding:8px;">
+          <textarea name="message" placeholder="Your Message" required style="margin-bottom:10px;width:100%;padding:8px;"></textarea>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+        <br>
+        <a href="https://github.com/Xizhe-Hao" target="_blank" style="margin-right:10px;">GitHub</a>
+        <a href="https://www.linkedin.com/in/zach-hao/" target="_blank">LinkedIn</a>
+    design:
+      columns: '1'
+      css_class: animated-section
+
+  - block: markdown
+    content:
+      text: |-
+        <a href="#top" class="btn btn-outline" style="position:fixed;bottom:40px;right:40px;z-index:1000;">Back to Top</a>
+    design:
+      columns: '1'
+      css_class: backtotop-section
 ---
