@@ -13,23 +13,28 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: ""
+      text: "<span style='font-size:1.3em;font-weight:bold;'>Welcome! I'm Zach Hao</span><br>Graduate Student | Embedded Systems | AIoT | Machine Learning<br><span style='font-size:1.1em;'>Passionate about integrating technology and business to solve real-world problems.</span>"
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
         url: uploads/CV_Zach Hao.pdf
     design:
-      css_class: dark
+      css_class: fancy-hero dark
       background:
-        color: black
+        color: '#0a192f'
         image:
           # Add your image background to `assets/media/`.
           filename: Space.png
           filters:
-            brightness: 1.0
+            brightness: 0.7
           size: cover
           position: center
-          parallax: false
+          parallax: true
+      avatar:
+        size: xl
+        border: true
+        shadow: true
+        shape: circle
   - block: markdown
     content:
       title: '📚 My Research'
@@ -86,7 +91,7 @@ sections:
 
   #       - 📊 **Data Analysis & Strategic Planning**: Used Tableau for data visualization, analyzing user trends and behaviors to inform financial management and company strategy. Implemented UI enhancements and functionality optimizations in mini-programs to keep users engaged.  
 
-  #       - 📝 **WeChat Public Account Operation & Content Creation**: Created and managed content for the company’s WeChat public account, focusing on topics relevant to college student growth and education. Authored a popular article on university student development, achieving over 68,000 views on a single post. 
+  #       - 📝 **WeChat Public Account Operation & Content Creation**: Created and managed content for the company's WeChat public account, focusing on topics relevant to college student growth and education. Authored a popular article on university student development, achieving over 68,000 views on a single post. 
 
     # design:
     #   columns: '1'
