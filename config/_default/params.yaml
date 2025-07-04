@@ -54,7 +54,7 @@ footer:
 
 # Localization
 locale:
-  date_format: 'May 17, 2025'
+  date_format: 'Jan 2, 2006'
   time_format: '5:17 PM'
 
 # Site features
