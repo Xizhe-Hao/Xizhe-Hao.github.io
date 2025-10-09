@@ -60,7 +60,7 @@ education:
     date_end: 2026-06-30
 
 
-  - area: B.Eng  Automation
+  - area: BS Automation
     institution: Southern University of Science and Techonology
     date_start: 2020-09-01
     date_end: 2024-06-30
