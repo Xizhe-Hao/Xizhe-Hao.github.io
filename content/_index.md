@@ -13,11 +13,11 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: "Hi! I am a first-year master's student in ECE at the University of Washington, currently working as a research assistant at the Ubiquitous Computing Lab. Before coming to UW, I completed my undergraduate degree at the <a href=\"https://www.sustech.edu.cn/en/\">Southern University of Science and Technology</a>, where I was fortunately mentored by <a href=\"https://scholar.google.co.uk/citations?user=jWmF7IQAAAAJ&hl=en\">Prof. Guoping Liu</a> and <a href=\"https://scholar.google.com/citations?user=sNve2YAAAAAJ&hl=zh-CN\">Prof. Xing Cheng</a>. "
+      text: "Hi! I am a second-year master's student in ECE at the University of Washington, where I work with <a href=\"https://homes.cs.washington.edu/~shwetak/\">Dr. Shwetak Patel</a>, <a href=\"https://www.vikramiyer.com/\">Dr. Vikram Iyer</a>, and <a href=\"https://makeabilitylab.cs.washington.edu/member/jonfroehlich/\">Dr. Jon E. Froehlich</a> on projects integrating embedded sensing, human-computer interaction, and machine learning. Before coming to UW, I completed my undergraduate degree at the <a href=\"https://www.sustech.edu.cn/en/\">Southern University of Science and Technology</a>, where I was fortunately mentored by <a href=\"https://scholar.google.co.uk/citations?user=jWmF7IQAAAAJ&hl=en\">Prof. Guoping Liu</a> and <a href=\"https://scholar.google.com/citations?user=sNve2YAAAAAJ&hl=zh-CN\">Prof. Xing Cheng</a>. "
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/CV_Zach Hao.pdf
+        url: uploads/CV_Zach(Xizhe)_Hao.pdf
     design:
       css_class: fancy-hero dark
       background:
@@ -40,10 +40,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        My research interests include Embedded systems, AIoT, and Machine Learning. 
-        
-        Besides, I'm genuinely interested in exploring how technology and business can be integrated to address real-world challenges and contribute positively to society.
-
+        I investigate how embedded sensing and interactive system design can be unified to create human-centered
+        ubiquitous technologies. My research explores hardware-software co-design for wearables that sense and respond
+        to human activity in real time, with applications in accessibility, health, and context-aware interaction.
         Please reach out to collaborate 😃
     design:
       columns: '1'
@@ -136,7 +135,7 @@ sections:
         padding: [0, 0, 0, 0]
 
   - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
+    demo: false # Only display this section in the Hugo Blox Builder demo site
     content:
       title: 👉 Build your own academic website like this
       text: |-
