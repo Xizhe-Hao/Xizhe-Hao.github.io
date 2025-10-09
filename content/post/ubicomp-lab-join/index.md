@@ -16,7 +16,7 @@ image:
 
 ## A New Chapter Begins! 🎉
 
-I can't believe it's been a few days since I officially joined the [**UbiComp Lab**](https://ubicomplab.cs.washington.edu/) at UW! Working with [Prof. Shwetak Patel](https://homes.cs.washington.edu/~shwetak/) and PhD student **Alex Ching** has been a dream come true. The lab's energy is infectious, and I'm already diving headfirst into some fascinating research directions.
+I can't believe it's been a few days since I officially joined the [**UbiComp Lab**](https://ubicomplab.cs.washington.edu/) at UW! Working with [Prof. Shwetak Patel](https://homes.cs.washington.edu/~shwetak/) and PhD student [**Alex Ching**](https://atching.github.io/) has been a dream come true. The lab's energy is infectious, and I'm already diving headfirst into some fascinating research directions.
 
 To be honest, this lab was one of the main reasons I decided to pursue my master's degree at UW in the first place. I've been following their work for a while now, and seeing their innovative approaches to health sensing, novel interactions, and real-world deployments really inspired me to want to be part of this research community.
 
