@@ -19,8 +19,8 @@ sections:
         text: Download CV
         url: uploads/CV_Zach(Xizhe)_Hao.pdf
     design:
-      # Apply gradient background using CSS
-      css_style: 'background: linear-gradient(135deg, #fce7f3 0%, #f3e8ff 50%, #dbeafe 100%);'
+      # Apply gradient background using CSS - very subtle gradient
+      css_style: 'background: linear-gradient(135deg, #fef1f7 0%, #f7f3fe 50%, #eff6ff 100%);'
       avatar:
         size: medium
         shape: circle
