@@ -19,12 +19,11 @@ sections:
         text: Download CV
         url: uploads/CV_Zach(Xizhe)_Hao.pdf
     design:
-      # Apply a gradient background
-      css_class: hbx-bg-gradient
-      # Avatar customization
+      # Apply gradient background using Tailwind CSS - soft pink to blue gradient
+      css_class: 'bg-gradient-to-br from-pink-100 via-purple-100 to-blue-100 dark:from-purple-900 dark:via-indigo-900 dark:to-blue-900'
       avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+        size: medium
+        shape: circle
   - block: markdown
     content:
       title: '📚 My Research'
