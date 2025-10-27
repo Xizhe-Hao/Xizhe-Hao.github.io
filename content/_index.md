@@ -19,22 +19,12 @@ sections:
         text: Download CV
         url: uploads/CV_Zach(Xizhe)_Hao.pdf
     design:
-      css_class: fancy-hero dark
-      background:
-        color: '#0a192f'
-        image:
-          # Add your image background to `assets/media/`.
-          filename: Space.png
-          filters:
-            brightness: 0.7
-          size: cover
-          position: center
-          parallax: true
+      # Apply a gradient background
+      css_class: hbx-bg-gradient
+      # Avatar customization
       avatar:
-        size: xl
-        border: true
-        shadow: true
-        shape: circle
+        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
       title: '📚 My Research'
