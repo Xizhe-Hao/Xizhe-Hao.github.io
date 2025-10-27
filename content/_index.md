@@ -19,8 +19,8 @@ sections:
         text: Download CV
         url: uploads/CV_Zach(Xizhe)_Hao.pdf
     design:
-      # Apply gradient background using Tailwind CSS - soft pink to blue gradient
-      css_class: 'bg-gradient-to-br from-pink-100 via-purple-100 to-blue-100 dark:from-purple-900 dark:via-indigo-900 dark:to-blue-900'
+      # Apply gradient background using CSS
+      css_style: 'background: linear-gradient(135deg, #fce7f3 0%, #f3e8ff 50%, #dbeafe 100%);'
       avatar:
         size: medium
         shape: circle
