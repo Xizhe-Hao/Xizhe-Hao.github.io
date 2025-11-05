@@ -1,0 +1,183 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Zach (Xizhe) Hao
+    - name: Email
+      value: xhao6@uw.edu
+    - name: Website
+      value: xizhehao.com
+    - name: LinkedIn
+      value: linkedin.com/in/zachhao
+    - name: Languages
+      value: English, Chinese
+
+- title: Education
+  type: time_table
+  contents:
+    - title: MS in Electrical and Computer Engineering
+      institution: University of Washington, Seattle, WA
+      year: Sep 2024 - Jun 2026
+      description:
+        - "GPA: 3.88/4.0"
+    - title: B.Eng. in Automation
+      institution: Southern University of Science and Technology, Shenzhen, China
+      year: Sep 2020 - Jun 2024
+      description:
+        - "Graduated with Distinction"
+        - "GPA: 3.51/4.0"
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Graduate Research Assistant - Interaction Wearables
+      institution: Ubicomp Lab, University of Washington
+      year: Dec 2024 - Present
+      description:
+        - "Advisors: Dr. Shwetak Patel, PhD Student Alex Ching"
+        - Investigating mechanically mediated sensing structures in ring and watch form factors to enable expressive, low-cost wearable input without reliance on complex ML models
+        - Implemented synchronized multi-channel firmware on Seeed XIAO nRF52840 using Arduino to stream calibrated analog strain-gauge readings over BLE in real time
+        - Developed a Python-based BLE data pipeline for real-time buffering, segmentation, and visualization, and trained lightweight Conv1D classifiers for gesture recognition analysis
+        - Contributed to the IRB and study design for human-subject evaluation, analyzing recognition accuracy across mechanical configurations and wearing conditions
+
+    - title: Graduate Research Assistant - CircuitSync
+      institution: Iyer Lab, University of Washington
+      year: May 2025 - Present
+      description:
+        - "Advisors: Dr. Vikram Iyer, PhD Student Zachary Englhardt"
+        - Co-designed CircuitSync and led development of its core architecture, integrating circuit schematics with embedded code to enable synchronized, LLM-assisted design and debugging
+        - Implemented the JSON-based synchronization layer that translates between visual circuit diagrams and structured data, keeping user edits and LLM-generated code updates consistent in real time
+        - Developed backend integration with Arduino CLI and a multimodal prompting framework combining circuit topology, source code, and runtime traces to enhance LLM reasoning and reduce erroneous fixes
+        - "Conducted a 15-participant mixed-methods evaluation; CircuitSync achieved a System Usability Scale (SUS) score of 78 (SD = 15.36) and strong SPACE outcomes in productivity (M = 5.53) and learning (M = 5.07), validating its usability and efficacy for embedded development"
+
+    - title: Graduate Research Assistant - AR Runner and GlanceAR
+      institution: Makeability Lab, University of Washington
+      year: Aug 2025 - Present
+      description:
+        - "Advisors: Dr. Jon E. Froehlich, PhD Student Jaewook Lee"
+        - Engineered an iOS auditory AR system in Xcode using ARKit and Core Audio, delivering head-tracked 3D "ghost pacer" feedback via AirPods Pro 2 to investigate how spatialized audio cues enhance running motivation and spatial awareness in real time
+        - Developed a custom HRTF-based spatial audio engine using AVAudioEnvironmentNode and CMHeadphoneMotionManager, modeling psychoacoustic panning, volume, and head-tracked orientation for perceptually stable feedback
+        - Designed the LiDAR-based notification module in GlanceAR, for passive obstacle detection and authored the IRB protocol for human-subject evaluation
+
+    - title: Visiting Undergraduate Researcher - Caterpillar-inspired Soft Robot
+      institution: NC State University
+      year: Jan 2024 - Feb 2024
+      description:
+        - "Advisor: Dr. Yong Zhu, PhD Student Shuang Wu"
+        - Developed a PCB-based embedded control system for a bio-inspired soft robot driven by resistively heated liquid crystal elastomer (LCE) actuators, integrating MOSFET switching, thermal sensing, and power management to achieve precise, programmable crawling locomotion
+        - Implemented real-time wireless control via Wi-Fi/Bluetooth interfaces and experimentally validated programmable motion sequences with synchronized heating profiles and friction modulation
+
+- title: Selected Projects
+  type: time_table
+  contents:
+    - title: Intelligent Fridge System
+      institution: National University of Singapore (Summer Program)
+      year: Jul 2023
+      description:
+        - Led a team to develop an IoT-based smart refrigerator system that automatically tracks food items, monitors temperature and humidity, and issues expiry alerts through an online dashboard
+        - Integrated image-based food recognition (YOLOv8), weight sensing, and environmental monitoring; data flows from sensors through ESP32 and Raspberry Pi to Huawei Cloud and a web interface
+        - Led the embedded system design, including integration of HX711 (weight), DHT11, and HC-SR04 (door detection) with buzzer–LED feedback and MQTT data transmission
+        - Implemented the GPT-based recipe suggestion module and real-time communication pipeline
+
+    - title: Smart IoT-Based Plant Monitoring and Watering System
+      year: Sep 2022 - May 2023
+      description:
+        - Developed an AI-driven IoT system integrating Raspberry Pi, multi-sensor modules, and GPT-based analysis for real-time plant monitoring and intelligent decision-making
+        - Implemented a closed-loop control that autonomously activates a peristaltic pump for watering and a micro pump for fertilization based on GPT analysis results
+        - Built a cloud digital twin with a Flask web dashboard on Alibaba Cloud IoT
+        - Awarded a utility patent (CN220441530U) by the China National Intellectual Property Administration
+
+- title: Entrepreneurship Experience
+  type: time_table
+  contents:
+    - title: Founder
+      institution: Shenzhen Suishi Technology Co., Ltd.
+      year: Apr 2023 - Jun 2024
+      description:
+        - Founded and led a six-member startup developing a WeChat Mini Program integrating campus discounts and local business services, reaching 10K+ users across 3 universities
+        - Oversaw technical development, data analytics, and promotional strategy across WeChat, Xiaohongshu, and other social media, ensuring stable deployment, continuous user growth, and achieving 100K+ post views with strong community engagement
+        - Secured $1K seed funding, managed team budgeting and compensation with legal and financial compliance, and successfully exited at 3× return (~$3K)
+
+- title: Awards and Distinctions
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - Graduated with Distinction
+        - Distinguished Graduation Project Award (2nd Place among 26 projects)
+    - year: 2023
+      items:
+        - Ruoshui Scholarship (Top 10 among 833 students)
+        - Practicing Star (Top 36 among 4,804 students)
+    - year: 2022
+      items:
+        - Merit Student Scholarship
+    - year: 2021
+      items:
+        - Innovation and Entrepreneurship Award (Top 2 among 833 students)
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: "CircuitSync: Bridging Physical Context Gaps in AI-Assisted Embedded System Development"
+      year: 2025
+      description:
+        - "Englhardt, Z., Hao, X., Lin, T., Kao, C., Nissanka, D., Zhang, Z., Narayanswamy, G., Breda, J., Liu, X., Patel, S., Li, R., & Iyer, V."
+        - Manuscript submitted for publication at CHI 2026
+
+- title: Posters
+  type: time_table
+  contents:
+    - title: "Smart Fully Automatic Flowerpot Based on a Micropump"
+      year: 2024
+      description:
+        - "Hao, X., Cheng, X., & Liu, G."
+        - Undergraduate Research Showcase, 2024
+        - Distinguished Graduation Project Award
+    - title: "Network Circuit Experiment System Based on Digital Twin"
+      year: 2023
+      description:
+        - "Hua, Y., Tang, H., Hao, X., & Zhang, Y."
+        - Undergraduate Innovation and Entrepreneurship Training Program Poster, 2023
+
+- title: Service
+  type: time_table
+  contents:
+    - title: President
+      institution: News Agency of SUSTech
+      year: Sep 2021 - Sep 2022
+      description:
+        - Coordinated 100+ members to manage the university's official social media and magazine
+        - Won the "Most Impactful University NewsWork" from China Youth Daily
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items:
+        - Python, C/C++, JavaScript, MATLAB
+    - title: Embedded Systems & Hardware
+      items:
+        - Arduino, Raspberry Pi, ESP32, Seeed XIAO nRF52840
+        - PCB Design, MOSFET Circuits, Sensor Integration (HX711, DHT11, BH1750)
+        - BLE/Wi-Fi/Bluetooth Communication Protocols
+    - title: Software Development
+      items:
+        - iOS Development (Xcode, Swift, ARKit, Core Audio)
+        - Web Development (Flask, HTML, CSS, JavaScript)
+        - Machine Learning (PyTorch, YOLOv8, Conv1D Classifiers)
+    - title: Tools & Platforms
+      items:
+        - Git, Docker, Arduino CLI
+        - Cloud IoT (Alibaba Cloud, Huawei Cloud)
+        - Data Visualization (Chart.js, Matplotlib)
+
+- title: Research Interests
+  type: list
+  contents:
+    - Human-Computer Interaction (HCI)
+    - Wearable Computing and Sensing
+    - Embedded Systems and IoT
+    - AI-Assisted Development Tools
+    - Augmented Reality and Spatial Audio
+    - Bio-inspired Robotics
