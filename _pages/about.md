@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a graduate student in Electrical and Computer Engineering at the University of Washington, advised by Prof. [Shwetak Patel](https://ubicomplab.cs.washington.edu/). I am also fortunate to work with Prof. [Vikram Iyer](https://iyerlab.cs.washington.edu/) and Prof. [Jon E. Froehlich](https://makeabilitylab.cs.washington.edu/). My work at [UW Ubicomp Lab](https://ubicomplab.cs.washington.edu/) focuses on wearable devices and embedded systems.
+I am a graduate student in Electrical and Computer Engineering at the University of Washington, advised by Prof. [Shwetak Patel](https://homes.cs.washington.edu/~shwetak/). I am also fortunate to work with Prof. [Vikram Iyer](https://homes.cs.washington.edu/~vsiyer/) and Prof. [Jon E. Froehlich](https://makeabilitylab.cs.washington.edu/). My work at [UW Ubicomp Lab](https://ubicomplab.cs.washington.edu/) focuses on wearable devices and embedded systems.
 
 Prior to the University of Washington, I earned my B.Eng. in Automation from [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/) in Shenzhen, China, where I graduated with distinction.
 
