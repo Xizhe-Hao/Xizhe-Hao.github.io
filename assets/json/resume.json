@@ -3,7 +3,7 @@
     "name": "Zach (Xizhe) Hao",
     "label": "Graduate Student in Electrical and Computer Engineering",
     "image": "",
-    "email": "xhao6@uw.edu",
+    "email": "xhao6 [at] uw [dot] edu",
     "phone": "",
     "url": "https://www.xizhehao.com",
     "summary": "Graduate student in Electrical and Computer Engineering at the University of Washington, specializing in Human-Computer Interaction, Wearable Computing, and Embedded Systems. Research focus on interaction techniques, AI-assisted development tools, and augmented reality.",
@@ -29,72 +29,46 @@
   },
   "work": [
     {
-      "name": "Ubicomp Lab, University of Washington",
-      "position": "Graduate Research Assistant - Interaction Wearables",
-      "url": "https://ubicomplab.cs.washington.edu/",
-      "startDate": "2024-12-01",
-      "endDate": "",
-      "summary": "Investigating mechanically mediated sensing structures in ring and watch form factors to enable expressive, low-cost wearable input without reliance on complex ML models.",
-      "highlights": [
-        "Implemented synchronized multi-channel firmware on Seeed XIAO nRF52840 using Arduino",
-        "Developed Python-based BLE data pipeline for real-time buffering and visualization",
-        "Trained lightweight Conv1D classifiers for gesture recognition analysis",
-        "Contributed to IRB and study design for human-subject evaluation"
-      ]
-    },
-    {
-      "name": "Iyer Lab, University of Washington",
-      "position": "Graduate Research Assistant - CircuitSync",
-      "url": "https://iyerlab.cs.washington.edu/",
-      "startDate": "2025-05-01",
-      "endDate": "",
-      "summary": "Co-designed CircuitSync, integrating circuit schematics with embedded code to enable synchronized, LLM-assisted design and debugging.",
-      "highlights": [
-        "Implemented JSON-based synchronization layer between visual circuit diagrams and structured data",
-        "Developed backend integration with Arduino CLI and multimodal prompting framework",
-        "Conducted 15-participant evaluation achieving SUS score of 78 (SD = 15.36)",
-        "Strong SPACE outcomes in productivity (M = 5.53) and learning (M = 5.07)"
-      ]
-    },
-    {
-      "name": "Makeability Lab, University of Washington",
-      "position": "Graduate Research Assistant - AR Runner and GlanceAR",
-      "url": "https://makeabilitylab.cs.washington.edu/",
-      "startDate": "2025-08-01",
-      "endDate": "",
-      "summary": "Engineered iOS auditory AR system delivering head-tracked 3D 'ghost pacer' feedback via AirPods Pro 2.",
-      "highlights": [
-        "Developed custom HRTF-based spatial audio engine using AVAudioEnvironmentNode",
-        "Implemented ARKit and Core Audio for spatialized audio cues",
-        "Designed LiDAR-based notification module for passive obstacle detection",
-        "Authored IRB protocol for human-subject evaluation"
-      ]
-    },
-    {
       "name": "Shenzhen Suishi Technology Co., Ltd.",
       "position": "Founder",
       "url": "",
       "startDate": "2023-04-01",
       "endDate": "2024-06-01",
-      "summary": "Founded and led a six-member startup developing a WeChat Mini Program integrating campus discounts and local business services.",
+      "summary": "Founded and led a six-member startup developing a WeChat Mini Program integrating campus discounts and local business services, reaching 10K+ users across 3 universities.",
       "highlights": [
-        "Reached 10K+ users across 3 universities",
-        "Achieved 100K+ post views with strong community engagement",
-        "Secured $1K seed funding and successfully exited at 3× return (~$3K)",
-        "Managed technical development, data analytics, and promotional strategy"
+        "Platform Development: Launched a comprehensive campus offer platform, partnering with major platforms (Meituan, Taobao, Jingdong) to provide college students with exclusive discounts on food, entertainment, and online shopping",
+        "User Experience & Interface Design: Mapped user journeys to understand user needs, designed and implemented the front end of a WeChat mini-program using JavaScript and WeChat DevTools, ensuring a smooth and intuitive user experience",
+        "Data Analysis & Strategic Planning: Used Tableau for data visualization, analyzing user trends and behaviors to inform financial management and company strategy. Implemented UI enhancements and functionality optimizations to keep users engaged",
+        "WeChat Public Account Operation & Content Creation: Created and managed content for the company's WeChat public account, focusing on topics relevant to college student growth and education. Authored a popular article achieving over 68,000 views on a single post"
+      ]
+    },
+    {
+      "name": "News Agency of SUSTech",
+      "position": "President",
+      "url": "",
+      "startDate": "2021-09-01",
+      "endDate": "2022-09-01",
+      "summary": "Led the university's official media organization, coordinating 100+ members to manage social media platforms and magazine publication.",
+      "highlights": [
+        "Coordinated 100+ members across multiple departments to manage the university's official social media accounts and print magazine",
+        "Won the 'Most Impactful University NewsWork' award from China Youth Daily",
+        "Oversaw content creation, editorial processes, and strategic communications for university-wide initiatives"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "News Agency of SUSTech",
+      "organization": "Volunteer Association of SUSTech",
       "location": "Shenzhen, China",
-      "position": "President",
+      "position": "Volunteer",
       "url": "",
-      "startDate": "2021-09-01",
-      "endDate": "2022-09-01",
-      "summary": "Coordinated 100+ members to manage the university's official social media and magazine.",
-      "highlights": ["Won 'Most Impactful University NewsWork' from China Youth Daily"]
+      "startDate": "2020-10-01",
+      "endDate": "2024-06-01",
+      "summary": "Contributed 200+ hours across 50+ diverse events, enriching children's science literacy and community engagement.",
+      "highlights": [
+        "Contributed 200+ hours across 50+ diverse events, enriching children's science literacy",
+        "Awarded the 'Top 10 Volunteer' from Southern University of Science and Technology in 2022"
+      ]
     }
   ],
   "education": [
@@ -159,15 +133,7 @@
     }
   ],
   "certificates": [],
-  "publications": [
-    {
-      "name": "CircuitSync: Bridging Physical Context Gaps in AI-Assisted Embedded System Development",
-      "publisher": "CHI 2026 (Submitted)",
-      "releaseDate": "2025-01-01",
-      "url": "",
-      "summary": "Englhardt, Z., Hao, X., Lin, T., Kao, C., Nissanka, D., Zhang, Z., Narayanswamy, G., Breda, J., Liu, X., Patel, S., Li, R., & Iyer, V. Manuscript submitted for publication at CHI 2026."
-    }
-  ],
+  "publications": [],
   "skills": [
     {
       "name": "Programming Languages",

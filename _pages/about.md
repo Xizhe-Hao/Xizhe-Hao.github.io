@@ -33,11 +33,8 @@ My research interests lie in developing intelligent end-to-end systems that inte
 ---
 
 <div style="background-color: #fff3cd; padding: 20px; border-radius: 10px; border-left: 5px solid #ffc107; margin: 20px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <h4 style="margin-top: 0; color: #856404;">
-    🎓 Seeking PhD Opportunities
-  </h4>
-  <p style="margin-bottom: 0; color: #856404; line-height: 1.6;">
-    I am actively seeking <strong>PhD positions starting Fall 2025/2026</strong> in <strong>Wearable Computing</strong>, <strong>Ubiquitous Computing</strong>, <strong>Human-Computer Interaction (HCI)</strong>, and <strong>Human-AI Collaboration</strong>. If you think I would be a good fit for your lab, please feel free to reach out!
+  <p style="margin-top: 0; margin-bottom: 0; color: #856404; line-height: 1.6; font-size: 1rem;">
+    🎓 <span style="font-weight: 600;">Seeking PhD Opportunities:</span> I am actively seeking PhD positions starting Fall 2026 in Wearable Computing, Ubiquitous Computing, Human-Computer Interaction (HCI), and Human-AI Collaboration. If you think I would be a good fit for your lab, please feel free to reach out!
   </p>
 </div>
 
