@@ -73,6 +73,19 @@ layout: default
       </div>
     {% endif %}
 
+    <!-- Visitor Map -->
+    {% if page.visitor_map and site.clustrmaps_id %}
+      <div class="visitor-map" style="text-align: center; margin-top: 40px;">
+        <h2>Visitor Map</h2>
+        <div style="display: inline-block;">
+          <img src="//www.clustrmaps.com/map_v2.png?d={{ site.clustrmaps_id }}&cl=ffffff&w=a" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); max-width: 100%;" alt="Visitor Map" />
+        </div>
+        <p style="font-size: 0.9rem; color: #666; margin-top: 10px;">
+          <em>Global visitor distribution map</em>
+        </p>
+      </div>
+    {% endif %}
+
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
