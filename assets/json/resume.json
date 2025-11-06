@@ -195,12 +195,20 @@
   "references": [],
   "projects": [
     {
+      "name": "Caterpillar-inspired Soft Robot",
+      "summary": "PCB-based embedded control system for a bio-inspired soft robot driven by resistively heated liquid crystal elastomer (LCE) actuators.",
+      "highlights": ["MOSFET switching and thermal sensing", "Real-time wireless control via Wi-Fi/Bluetooth", "Programmable crawling locomotion"],
+      "startDate": "2024-01-01",
+      "endDate": "2024-02-28",
+      "url": "https://xizhehao.com/projects/Soft_Robot/index/"
+    },
+    {
       "name": "Intelligent Fridge System",
       "summary": "IoT-based smart refrigerator system that automatically tracks food items, monitors temperature and humidity, and issues expiry alerts through an online dashboard.",
       "highlights": ["Image-based food recognition (YOLOv8)", "Weight sensing and environmental monitoring", "GPT-based recipe suggestion module"],
       "startDate": "2023-07-01",
       "endDate": "2023-07-31",
-      "url": ""
+      "url": "https://xizhehao.com/projects/Intelligent%20Fridge%20System/index/"
     },
     {
       "name": "Smart IoT-Based Plant Monitoring System",
@@ -212,15 +220,8 @@
       ],
       "startDate": "2022-09-01",
       "endDate": "2023-05-31",
-      "url": ""
-    },
-    {
-      "name": "Caterpillar-inspired Soft Robot",
-      "summary": "PCB-based embedded control system for a bio-inspired soft robot driven by resistively heated liquid crystal elastomer (LCE) actuators.",
-      "highlights": ["MOSFET switching and thermal sensing", "Real-time wireless control via Wi-Fi/Bluetooth", "Programmable crawling locomotion"],
-      "startDate": "2024-01-01",
-      "endDate": "2024-02-28",
-      "url": ""
+      "url": "https://xizhehao.com/projects/Smart%20Fully%20Automatic%20Flowerpot%20Based%20on%20Micropump/index/"
     }
+
   ]
 }
