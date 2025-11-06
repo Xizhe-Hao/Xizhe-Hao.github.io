@@ -13,7 +13,6 @@ nav_order: 4
 
 Cooking is like another language to me—a way to express feelings and show love to friends and family. I find fascinating parallels between cooking and research: both require finding the right "recipe," carefully selecting and preparing materials, experimenting to discover the optimal approach, and understanding that every detail matters—even the smallest seasoning can make a difference. Time management is crucial in both, whether you're coordinating multiple dishes or juggling research experiments.
 
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Cooking/1.jpg" class="img-fluid rounded z-depth-1" %}

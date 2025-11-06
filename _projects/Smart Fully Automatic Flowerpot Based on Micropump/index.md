@@ -41,23 +41,26 @@ With these goals, the Smart Flowerpot delivers a blend of sustainability, conven
 The system integrates four key subsystems working in harmony to provide comprehensive plant care automation.
 
 <figure style="text-align: center; margin-bottom: 20px;">
-  <img src="image.png" alt="System Architecture" style="width: 85%; margin: 0 auto;">
+  <img src="/assets/img/projects/flowerpot/image.png" alt="System Architecture" style="width: 85%; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray;">Figure 1: System Architecture with four integrated subsystems</figcaption>
 </figure>
 
 ### Core Components:
 
 1. **Environmental Monitoring Subsystem**:
+
    - Multi-sensor array for comprehensive environmental data collection
    - Pi Camera for visual plant health assessment
    - Real-time data sampling at configurable intervals
 
 2. **Display and Interface Subsystem**:
+
    - Alibaba Cloud IoT dashboard for remote monitoring
    - Web-based interface for user interaction and control
    - Mobile-responsive design for access from any device
 
 3. **Irrigation and Fertilization Subsystem**:
+
    - Precision peristaltic pump for controlled water delivery
    - Micropump for accurate fertilizer dosing
    - Automated actuation based on sensor feedback and AI recommendations
@@ -74,7 +77,7 @@ The system integrates four key subsystems working in harmony to provide comprehe
 The hardware framework is designed for reliability, precision, and comprehensive environmental monitoring.
 
 <figure style="text-align: center; margin-bottom: 20px;">
-  <img src="image-1.png" alt="Hardware Components" style="width: 85%; margin: 0 auto;">
+  <img src="/assets/img/projects/flowerpot/image-1.png" alt="Hardware Components" style="width: 85%; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray;">Figure 2: Complete hardware system with all integrated components</figcaption>
 </figure>
 
@@ -89,18 +92,21 @@ The hardware framework is designed for reliability, precision, and comprehensive
 ### 2.2 Environmental Sensors
 
 1. **Soil Moisture Sensor (Capacitive)**:
+
    - Measures volumetric water content in soil
    - Corrosion-resistant capacitive design for long-term reliability
    - Analog output: 0-3.3V proportional to moisture level
    - Accuracy: ±3% moisture content
 
 2. **DHT22 Temperature and Humidity Sensor**:
+
    - Air temperature range: -40°C to 80°C (±0.5°C accuracy)
    - Humidity range: 0-100% RH (±2% accuracy)
    - Digital output via single-wire protocol
    - 2-second sampling rate
 
 3. **BH1750 Light Intensity Sensor**:
+
    - Digital ambient light sensor with I2C interface
    - Range: 1-65535 lux
    - High resolution: 1 lux
@@ -115,12 +121,14 @@ The hardware framework is designed for reliability, precision, and comprehensive
 ### 2.3 Actuation System
 
 1. **Peristaltic Pump (12V DC)**:
+
    - Flow rate: 100-300 mL/min (adjustable via PWM)
    - Self-priming capability up to 2 meters
    - Non-contaminating fluid path (tube-based design)
    - Precise volume control for water delivery
 
 2. **Micropump for Fertilization**:
+
    - Miniature diaphragm pump for precise dosing
    - Flow rate: 5-20 mL/min
    - Chemical-resistant materials for fertilizer compatibility
@@ -139,7 +147,7 @@ The hardware framework is designed for reliability, precision, and comprehensive
 The Smart Flowerpot employs advanced AI models for intelligent plant health monitoring and decision-making.
 
 <figure style="text-align: center; margin-bottom: 20px;">
-  <img src="image-2.png" alt="AI Algorithm Flowchart" style="width: 85%; margin: 0 auto;">
+  <img src="/assets/img/projects/flowerpot/image-2.png" alt="AI Algorithm Flowchart" style="width: 85%; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray;">Figure 3: Artificial Intelligence algorithm workflow</figcaption>
 </figure>
 
@@ -148,17 +156,20 @@ The Smart Flowerpot employs advanced AI models for intelligent plant health moni
 The AI integration follows a comprehensive pipeline:
 
 1. **Data Collection Phase**:
+
    - Sensor data aggregation from all environmental monitors
    - Image capture via Pi Camera at scheduled intervals
    - Data preprocessing and normalization
 
 2. **Image Analysis Phase (GPT-4 Vision)**:
+
    - Plant leaf condition assessment (discoloration, spots, wilting)
    - Pest detection and identification
    - Disease symptom recognition
    - Growth stage estimation
 
 3. **Natural Language Processing (ChatGPT API)**:
+
    - Generates human-readable care recommendations
    - Interprets sensor data in context of plant species
    - Provides troubleshooting advice for identified issues
@@ -173,12 +184,14 @@ The AI integration follows a comprehensive pipeline:
 ### 3.2 Intelligent Features
 
 1. **Predictive Irrigation**:
+
    - Analyzes soil moisture trends to predict watering needs
    - Considers environmental factors (temperature, humidity, light)
    - Prevents both under-watering and over-watering
    - Adapts to seasonal changes and plant growth stages
 
 2. **Health Diagnostics**:
+
    - Real-time pest and disease detection from camera images
    - Early warning system for common plant problems
    - Suggested treatments and interventions
@@ -197,19 +210,21 @@ The AI integration follows a comprehensive pipeline:
 The system leverages Alibaba Cloud's IoT platform for scalable, reliable data management and remote access.
 
 <figure style="text-align: center; margin-bottom: 20px;">
-  <img src="image-4.png" alt="Cloud Platform Dashboard" style="width: 85%; margin: 0 auto;">
+  <img src="/assets/img/projects/flowerpot/image-4.png" alt="Cloud Platform Dashboard" style="width: 85%; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray;">Figure 4: Alibaba Cloud IoT platform displaying real-time data</figcaption>
 </figure>
 
 ### 4.1 Cloud Architecture
 
 1. **IoT Platform Core**:
+
    - Device management and authentication
    - MQTT protocol for efficient bi-directional communication
    - Data storage with time-series database
    - Rule engine for automated alerts and triggers
 
 2. **Data Pipeline**:
+
    - Real-time data streaming from Raspberry Pi to cloud
    - 30-second update interval for sensor readings
    - Image uploads for AI analysis (triggered or scheduled)
@@ -236,7 +251,7 @@ The system leverages Alibaba Cloud's IoT platform for scalable, reliable data ma
 The web interface provides an intuitive, responsive platform for plant monitoring and management.
 
 <figure style="text-align: center; margin-bottom: 20px;">
-  <img src="image-3.png" alt="Web Interface" style="width: 85%; margin: 0 auto;">
+  <img src="/assets/img/projects/flowerpot/image-3.png" alt="Web Interface" style="width: 85%; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray;">Figure 5: User-friendly web interface with real-time data display</figcaption>
 </figure>
 
@@ -259,18 +274,21 @@ The web interface provides an intuitive, responsive platform for plant monitorin
 ### 5.3 Key Interface Features
 
 1. **Dashboard Overview**:
+
    - Current environmental readings with visual indicators
    - Plant health status summary
    - Recent activity log (watering events, alerts)
    - Quick action buttons for manual control
 
 2. **Data Visualization**:
+
    - Time-series graphs for temperature, humidity, soil moisture
    - Trend indicators (increasing/decreasing/stable)
    - Customizable time ranges (24 hours, 7 days, 30 days)
    - Data export functionality (CSV format)
 
 3. **AI Insights Panel**:
+
    - Latest plant health assessment from GPT-4 Vision
    - Care recommendations from ChatGPT
    - Detected issues and suggested actions
@@ -306,6 +324,7 @@ The web interface provides an intuitive, responsive platform for plant monitorin
 ### 6.3 Water Conservation Metrics
 
 Compared to manual watering practices:
+
 - **Water Savings**: 40-60% reduction in water usage
 - **Precision Delivery**: Only waters when soil moisture drops below optimal threshold
 - **Prevents Overwatering**: Eliminates water waste from excessive manual watering
@@ -318,16 +337,19 @@ Compared to manual watering practices:
 ### 7.1 Target Applications
 
 1. **Urban Home Gardening**:
+
    - Automated care for busy professionals
    - Vacation mode for extended absences
    - Multi-plant management from single interface
 
 2. **Educational Institutions**:
+
    - Teaching platform for IoT and AI concepts
    - Plant biology experiments with data logging
    - STEM education demonstration tool
 
 3. **Small-Scale Agriculture**:
+
    - Precision irrigation for high-value crops
    - Resource optimization in water-scarce regions
    - Scalable to multiple pots or small garden beds
@@ -351,18 +373,22 @@ Compared to manual watering practices:
 ### Challenges Addressed:
 
 1. **Precise Water Delivery**:
+
    - **Challenge**: Achieving accurate volume control with peristaltic pump
    - **Solution**: PWM-controlled pump operation with flow calibration and timing algorithms
 
 2. **AI Model Latency**:
+
    - **Challenge**: Cloud-based GPT API calls introduce latency
    - **Solution**: Asynchronous processing with cached recommendations and local rule-based fallbacks
 
 3. **Sensor Reliability**:
+
    - **Challenge**: Soil moisture sensors prone to corrosion and drift
    - **Solution**: Capacitive sensors with periodic calibration and anomaly detection
 
 4. **Cloud Connectivity**:
+
    - **Challenge**: Network interruptions could disrupt system operation
    - **Solution**: Local autonomous mode with data buffering and automatic reconnection
 

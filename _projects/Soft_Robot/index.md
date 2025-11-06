@@ -14,13 +14,12 @@ tags:
 
 ## Authors
 
-**Xizhe Hao<sup>1,2</sup>, Jianzhi Tang<sup>1,3</sup>, Zhiqi Guo<sup>1,4</sup>, Yong Zhu<sup>1*</sup>
+\*_Xizhe Hao<sup>1,2</sup>, Jianzhi Tang<sup>1,3</sup>, Zhiqi Guo<sup>1,4</sup>, Yong Zhu<sup>1_</sup>
 
 <sup>1</sup> Department of Mechanical and Aerospace Engineering, North Carolina State University, Raleigh, NC 26975, USA  
 <sup>2</sup> School of System Design and Intelligent Manufacturing, Southern University of Science and Technology, Shenzhen, China  
 <sup>3</sup> Weiyang College, Tsinghua University, Beijing, China  
-<sup>4</sup> School of Microelectronics, Southern University of Science and Technology, Shenzhen, China  
-
+<sup>4</sup> School of Microelectronics, Southern University of Science and Technology, Shenzhen, China
 
 ---
 
@@ -32,7 +31,7 @@ The system demonstrates how biomimicry and advanced control systems can create v
 
 ## 0. Resources
 
-📄 **[Download the Project Poster](Poster_0215_Gears Program_Final.pdf)**
+📄 **[Download the Project Poster](/assets/img/projects/soft_robot/Poster_0215_Gears Program_Final.pdf)**
 
 💻 **[View the GitHub Repository](https://github.com/Xizhe-Hao/Soft-Robotics_control)**
 
@@ -41,7 +40,7 @@ The system demonstrates how biomimicry and advanced control systems can create v
 ## 1. Background and Motivation
 
 <figure style="text-align: center; margin-bottom: 20px;">
-  <img src="background.png" alt="Project Background" style="width: 85%; margin: 0 auto;">
+  <img src="/assets/img/projects/soft_robot/background.png" alt="Project Background" style="width: 85%; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray;">Figure 1: Biological inspiration and motivation for soft robot development</figcaption>
 </figure>
 
@@ -59,7 +58,7 @@ Soft robotics represents a paradigm shift from traditional rigid robots, offerin
 ## 2. Overall Design and System Architecture
 
 <figure style="text-align: center; margin-bottom: 20px;">
-  <img src="overall_design.png" alt="Overall System Design" style="width: 85%; margin: 0 auto;">
+  <img src="/assets/img/projects/soft_robot/overall_design.png" alt="Overall System Design" style="width: 85%; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray;">Figure 2: Complete system architecture and design overview</figcaption>
 </figure>
 
@@ -77,7 +76,7 @@ The soft robot system integrates three key subsystems: **actuation**, **control*
 ## 3. Robot Manufacturing and Fabrication
 
 <figure style="text-align: center; margin-bottom: 20px;">
-  <img src="Robot manufacturing.png" alt="Robot Manufacturing Process" style="width: 85%; margin: 0 auto;">
+  <img src="/assets/img/projects/soft_robot/Robot manufacturing.png" alt="Robot Manufacturing Process" style="width: 85%; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray;">Figure 3: Fabrication process and assembly of the soft robot</figcaption>
 </figure>
 
@@ -93,7 +92,7 @@ The robot fabrication involves multiple stages:
 ## 4. Electronic Control System and Hardware
 
 <figure style="text-align: center; margin-bottom: 20px;">
-  <img src="Control.png" alt="Control System Architecture" style="width: 85%; margin: 0 auto;">
+  <img src="/assets/img/projects/soft_robot/Control.png" alt="Control System Architecture" style="width: 85%; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray;">Figure 4: Electronic control system and circuit architecture</figcaption>
 </figure>
 
@@ -104,11 +103,13 @@ The hardware architecture is designed for precise control of thermal actuation w
 The control board features:
 
 1. **Microcontroller Unit (MCU)**:
+
    - Processes control algorithms for coordinated multi-phase crawling sequences
    - Manages timing and synchronization of heating elements
    - Interfaces with wireless communication modules
 
 2. **Power Management Circuit**:
+
    - **NMOS Transistor Switches**: Enable precise current regulation to individual heating elements
    - **PWM Controllers**: Provide variable power delivery for temperature control
    - **Protection Circuits**: Overvoltage and overcurrent protection for safe operation
@@ -123,7 +124,6 @@ The control board features:
   - Remote monitoring of robot status and performance metrics
   - Parameter adjustment and programming of motion sequences
   - Data logging for analysis and optimization
-  
 - **Bluetooth Low Energy (BLE)**:
   - Low-latency direct control via mobile devices
   - Minimal power consumption during operation
@@ -132,11 +132,13 @@ The control board features:
 ### 4.3 Actuation Mechanism Details
 
 1. **Joule Heating System**:
+
    - Resistive heating elements embedded in or attached to thermally-responsive materials
    - Controlled temperature range: 25°C - 80°C for optimal actuation
    - Response time: ~2-5 seconds per heating/cooling cycle
 
 2. **Shape-Memory Effect**:
+
    - Materials undergo reversible phase transformation with temperature changes
    - Generates controlled deformation for forward propulsion
    - Recovers original shape upon cooling
@@ -182,14 +184,14 @@ The system supports multiple locomotion modes:
 ### 6.1 Locomotion Characterization
 
 <figure style="text-align: center; margin-bottom: 20px;">
-  <img src="Results_A.B.C.png" alt="Experimental Results Part 1" style="width: 85%; margin: 0 auto;">
+  <img src="/assets/img/projects/soft_robot/Results_A.B.C.png" alt="Experimental Results Part 1" style="width: 85%; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray;">Figure 5: Locomotion performance analysis including speed, displacement, and gait patterns</figcaption>
 </figure>
 
 ### 6.2 Performance Under Various Conditions
 
 <figure style="text-align: center; margin-bottom: 20px;">
-  <img src="Results_D.E.png" alt="Experimental Results Part 2" style="width: 85%; margin: 0 auto;">
+  <img src="/assets/img/projects/soft_robot/Results_D.E.png" alt="Experimental Results Part 2" style="width: 85%; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray;">Figure 6: Performance evaluation on different surfaces and environmental conditions</figcaption>
 </figure>
 
@@ -203,6 +205,7 @@ The system supports multiple locomotion modes:
 ### 6.4 Wireless Control Features
 
 1. **Mobile Application Interface**:
+
    - Real-time directional control (forward, reverse, pause)
    - Gait pattern selection and customization
    - Performance monitoring (battery, temperature, distance traveled)
@@ -228,16 +231,19 @@ The system supports multiple locomotion modes:
 This soft robot technology demonstrates potential in:
 
 1. **Medical Devices**:
+
    - Minimally invasive surgical tools
    - Endoscopic inspection systems
    - Drug delivery mechanisms in confined anatomical spaces
 
 2. **Industrial Inspection**:
+
    - Pipeline inspection in narrow conduits
    - Equipment diagnostics in hard-to-reach areas
    - Environmental monitoring in hazardous zones
 
 3. **Search and Rescue**:
+
    - Navigation through debris and rubble
    - Survivor detection in collapsed structures
    - Sample collection in disaster zones
@@ -264,14 +270,17 @@ Planned improvements include:
 ### Challenges Addressed:
 
 1. **Thermal Response Time**:
+
    - **Challenge**: Slow heating/cooling cycles limit speed
    - **Solution**: Optimized material selection and PWM control strategies
 
 2. **Power Management**:
+
    - **Challenge**: High current draw from heating elements
    - **Solution**: Efficient switching circuits and duty cycle optimization
 
 3. **Wireless Reliability**:
+
    - **Challenge**: Maintaining connection during movement
    - **Solution**: Dual-mode communication with automatic failover
 
@@ -283,9 +292,9 @@ Planned improvements include:
 
 ## References
 
-1. Wu, S., Hong, Y., Zhao, Y., Yin, J., & Zhu, Y. (2023). Caterpillar-inspired soft crawling robot with distributed programmable thermal actuation. *Science Advances*, 9(12), eadf8014. [https://doi.org/10.1126/sciadv.adf8014](https://doi.org/10.1126/sciadv.adf8014)
+1. Wu, S., Hong, Y., Zhao, Y., Yin, J., & Zhu, Y. (2023). Caterpillar-inspired soft crawling robot with distributed programmable thermal actuation. _Science Advances_, 9(12), eadf8014. [https://doi.org/10.1126/sciadv.adf8014](https://doi.org/10.1126/sciadv.adf8014)
 
-2. He, Q., Wang, Z., Wang, Y., Minori, A., Tolley, M. T., & Cai, S. (2019). Electrically controlled liquid crystal elastomer-based soft tubular actuator with multimodal actuation. *Science Advances*, 5(10), eaax5746. [https://doi.org/10.1126/sciadv.aax5746](https://doi.org/10.1126/sciadv.aax5746)
+2. He, Q., Wang, Z., Wang, Y., Minori, A., Tolley, M. T., & Cai, S. (2019). Electrically controlled liquid crystal elastomer-based soft tubular actuator with multimodal actuation. _Science Advances_, 5(10), eaax5746. [https://doi.org/10.1126/sciadv.aax5746](https://doi.org/10.1126/sciadv.aax5746)
 
 ---
 

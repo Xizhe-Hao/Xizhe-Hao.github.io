@@ -34,7 +34,7 @@ With these goals, the Smart Refrigerator delivers a blend of convenience, sustai
 
 ## 0. Poster Download
 
-📄 **[Download the Project Poster](Poster_intelligent_fridge.pdf)**
+📄 **[Download the Project Poster](/assets/img/projects/fridge/Poster_intelligent_fridge.pdf)**
 
 ## 1. System Roadmap and Core Functionalities
 
