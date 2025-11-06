@@ -14,7 +14,7 @@ tags:
 
 ## Authors
 
-\*_Xizhe Hao<sup>1,2</sup>, Jianzhi Tang<sup>1,3</sup>, Zhiqi Guo<sup>1,4</sup>, Yong Zhu<sup>1_</sup>
+Xizhe Hao<sup>1,2</sup>, Jianzhi Tang<sup>1,3</sup>, Zhiqi Guo<sup>1,4</sup>, Yong Zhu<sup>1_</sup>
 
 <sup>1</sup> Department of Mechanical and Aerospace Engineering, North Carolina State University, Raleigh, NC 26975, USA  
 <sup>2</sup> School of System Design and Intelligent Manufacturing, Southern University of Science and Technology, Shenzhen, China  

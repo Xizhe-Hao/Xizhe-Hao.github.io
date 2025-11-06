@@ -30,6 +30,21 @@ Prior to the University of Washington, I earned my B.Eng. in Automation from [So
 
 My research interests lie in developing intelligent end-to-end systems that integrate seamlessly into everyday life, with an emphasis on Human-Computer Interaction, wearable computing, and embedded systems design. I am particularly interested in creating novel sensing techniques and interaction methods that enhance human capabilities.
 
-<img src="/assets/img/balloons.png" alt="balloons" style="width: 30px; display: inline; vertical-align: middle; margin-left: 10px;"> Fun Facts: Beyond research, I enjoy cooking, hiking trails, cycling, playing badminton, and poker. [Learn more about my hobbies →](/fun/)
+---
+
+<div style="background-color: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 4px solid #4a90e2; margin: 20px 0;">
+  <h4 style="margin-top: 0; color: #4a90e2;">
+    <img src="/assets/img/balloons.png" alt="balloons" style="width: 28px; vertical-align: middle; margin-right: 8px;"> 
+    Fun Facts
+  </h4>
+  <p style="margin-bottom: 10px;">
+    Beyond research, I enjoy <strong>cooking</strong>, <strong>hiking trails</strong>, <strong>cycling</strong>, playing <strong>badminton</strong>, and <strong>poker</strong>.
+  </p>
+  <p style="margin-bottom: 0;">
+    <a href="/fun/" style="color: #4a90e2; text-decoration: none; font-weight: 500;">
+      Learn more about my hobbies →
+    </a>
+  </p>
+</div>
 
 Feel free to reach out to me at xhao6 [at] uw [dot] edu!
