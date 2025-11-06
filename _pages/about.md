@@ -9,7 +9,6 @@ profile:
   image: Zach_Picture.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>xhao6 [at] uw [dot] edu</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -42,3 +41,4 @@ My research interests lie in developing intelligent end-to-end systems that inte
 
 <img src="/assets/img/balloons.png" alt="balloons" style="width: 24px; vertical-align: middle; margin-right: 6px;"> **Fun Facts:** Beyond research, I enjoy cooking, hiking trails, cycling, playing badminton, and poker. [Learn more about my hobbies →](/fun/)
 
+Feel free to reach out to me at xhao6 [at] uw [dot] edu!
