@@ -5,8 +5,8 @@
     "image": "",
     "email": "xhao6 [at] uw [dot] edu",
     "phone": "",
-    "url": "https://www.xizhehao.com",
-    "summary": "Graduate student in Electrical and Computer Engineering at the University of Washington, specializing in Human-Computer Interaction, Wearable Computing, and Embedded Systems. Research focus on interaction techniques, AI-assisted development tools, and augmented reality.",
+    "url": "",
+    "summary": "",
     "location": {
       "address": "",
       "postalCode": "",
@@ -36,10 +36,10 @@
       "endDate": "2024-06-01",
       "summary": "",
       "highlights": [
-        "Platform Development: Launched a comprehensive campus offer platform, partnering with major platforms (Meituan, Taobao, Jingdong) to provide college students with exclusive discounts on food, entertainment, and online shopping",
-        "User Experience & Interface Design: Mapped user journeys to understand user needs, designed and implemented the front end of a WeChat mini-program using JavaScript and WeChat DevTools, ensuring a smooth and intuitive user experience",
-        "Data Analysis & Strategic Planning: Used Tableau for data visualization, analyzing user trends and behaviors to inform financial management and company strategy. Implemented UI enhancements and functionality optimizations to keep users engaged",
-        "WeChat Public Account Operation & Content Creation: Created and managed content for the company's WeChat public account, focusing on topics relevant to college student growth and education. Authored a popular article achieving over 68,000 views on a single post"
+        "Launched a comprehensive campus discount platform aggregating exclusive offers from major e-commerce platforms (Meituan, Taobao, Jingdong), providing college students with special deals across dining, entertainment, and retail categories",
+        "Led end-to-end product development by conducting user journey mapping, designing information architecture, and implementing frontend functionality using JavaScript and WeChat DevTools to deliver an intuitive user experience",
+        "Drove data-informed decision-making through Tableau analytics, identifying key user behavior patterns and engagement trends to optimize platform features, refine UI/UX elements, and guide business strategy",
+        "Established and managed company's social media presence, creating educational content focused on student development and career growth, achieving over 68K views on a single article and building strong community engagement"
       ]
     },
     {
@@ -50,9 +50,9 @@
       "endDate": "2022-09-01",
       "summary": "",
       "highlights": [
-        "Coordinated 100+ members across multiple departments to manage the university's official social media accounts and print magazine",
-        "Won the 'Most Impactful University NewsWork' award from China Youth Daily",
-        "Oversaw content creation, editorial processes, and strategic communications for university-wide initiatives"
+        "Led cross-functional team of 100+ members across editorial, design, and digital media departments to manage university's official social media channels and oversee complete magazine production cycle including content collection, editorial planning, design, publishing, and distribution",
+        "Received 'Most Impactful University NewsWork' recognition from China Youth Daily for excellence in student journalism and media innovation",
+        "Directed content strategy, editorial workflows, and institutional communications, ensuring consistent brand messaging and timely coverage of university-wide events and initiatives"
       ]
     }
   ],
@@ -66,8 +66,8 @@
       "endDate": "2024-06-01",
       "summary": "",
       "highlights": [
-        "Contributed 200+ hours across 50+ diverse events, enriching children's science literacy",
-        "Awarded the 'Top 10 Volunteer' from Southern University of Science and Technology in 2022"
+        "Contributed 200+ service hours across 50+ community outreach events, developing and delivering interactive science education programs to enhance children's STEM literacy and inspire curiosity in scientific inquiry",
+        "Recognized as 'Top 10 Volunteer' by Southern University of Science and Technology in 2022 for outstanding community service and sustained commitment to educational outreach"
       ]
     }
   ],
