@@ -32,19 +32,15 @@ My research interests lie in developing intelligent end-to-end systems that inte
 
 ---
 
-<div style="background-color: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 4px solid #4a90e2; margin: 20px 0;">
-  <h4 style="margin-top: 0; color: #4a90e2;">
-    <img src="/assets/img/balloons.png" alt="balloons" style="width: 28px; vertical-align: middle; margin-right: 8px;"> 
-    Fun Facts
+<div style="background-color: #fff3cd; padding: 20px; border-radius: 10px; border-left: 5px solid #ffc107; margin: 20px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <h4 style="margin-top: 0; color: #856404;">
+    🎓 Seeking PhD Opportunities
   </h4>
-  <p style="margin-bottom: 10px;">
-    Beyond research, I enjoy <strong>cooking</strong>, <strong>hiking trails</strong>, <strong>cycling</strong>, playing <strong>badminton</strong>, and <strong>poker</strong>.
-  </p>
-  <p style="margin-bottom: 0;">
-    <a href="/fun/" style="color: #4a90e2; text-decoration: none; font-weight: 500;">
-      Learn more about my hobbies →
-    </a>
+  <p style="margin-bottom: 0; color: #856404; line-height: 1.6;">
+    I am actively seeking <strong>PhD positions starting Fall 2025/2026</strong> in <strong>Wearable Computing</strong>, <strong>Ubiquitous Computing</strong>, <strong>Human-Computer Interaction (HCI)</strong>, and <strong>Human-AI Collaboration</strong>. If you think I would be a good fit for your lab, please feel free to reach out!
   </p>
 </div>
+
+<img src="/assets/img/balloons.png" alt="balloons" style="width: 24px; vertical-align: middle; margin-right: 6px;"> **Fun Facts:** Beyond research, I enjoy cooking, hiking trails, cycling, playing badminton, and poker. [Learn more about my hobbies →](/fun/)
 
 Feel free to reach out to me at xhao6 [at] uw [dot] edu!
