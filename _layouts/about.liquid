@@ -77,42 +77,44 @@ layout: default
     {% if page.visitor_map and site.clustrmaps_id %}
       <div style="width: 100%; text-align: center; margin-top: 3rem; margin-bottom: 2rem;">
         <h3 style="margin-bottom: 1.5rem; color: #2c3e50; font-size: 1.5rem; font-weight: 700;">🌍 Global Visitors</h3>
-        <div id="clustrmaps-container" style="display: inline-block; position: relative; pointer-events: none;">
+        <div id="clustrmaps-container" style="display: inline-block; position: relative;">
           <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=500&t=n&d={{ site.clustrmaps_id }}'></script>
         </div>
         <p style="margin-top: 1rem; margin-bottom: 0; color: #666; font-size: 0.9rem; font-style: italic;">Interactive visitor map powered by ClustrMaps</p>
       </div>
       <script type="text/javascript">
         // Prevent clicks on ClustrMaps from redirecting to their site
-        document.addEventListener('DOMContentLoaded', function() {
-          setTimeout(function() {
+        (function() {
+          function disableMapLinks() {
             var container = document.getElementById('clustrmaps-container');
             if (container) {
-              // Remove pointer-events restriction to allow hover effects
-              container.style.pointerEvents = 'auto';
-              
               // Disable all links within the map
-              var links = container.getElementsByTagName('a');
-              for (var i = 0; i < links.length; i++) {
-                links[i].addEventListener('click', function(e) {
+              var links = container.querySelectorAll('a');
+              links.forEach(function(link) {
+                link.addEventListener('click', function(e) {
                   e.preventDefault();
                   e.stopPropagation();
                   return false;
-                });
-                links[i].style.cursor = 'default';
-              }
-              
-              // Disable clicks on the entire container as backup
-              container.addEventListener('click', function(e) {
-                if (e.target.tagName === 'A' || e.target.closest('a')) {
-                  e.preventDefault();
-                  e.stopPropagation();
-                  return false;
-                }
-              }, true);
+                }, true);
+                link.style.cursor = 'default';
+                link.removeAttribute('href');
+              });
             }
-          }, 1000);
-        });
+          }
+          
+          // Try multiple times to ensure the map is loaded
+          if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', function() {
+              setTimeout(disableMapLinks, 500);
+              setTimeout(disableMapLinks, 1500);
+              setTimeout(disableMapLinks, 3000);
+            });
+          } else {
+            setTimeout(disableMapLinks, 500);
+            setTimeout(disableMapLinks, 1500);
+            setTimeout(disableMapLinks, 3000);
+          }
+        })();
       </script>
     {% endif %}
 
