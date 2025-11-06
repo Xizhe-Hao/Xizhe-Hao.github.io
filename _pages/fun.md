@@ -35,7 +35,7 @@ I really love exploring trails and enjoying the outdoors. There's something refr
 
 A great way to stay active and enjoy friendly competition with friends.
 
-### <img src="/assets/img/poker-game.png" alt="poker" style="width: 28px; vertical-align: middle;"> Poker
+### <img src="/assets/img/poker-game.png" alt="poker" style="width: 28px; vertical-align: middle;"> Poker 
 
 Poker perfectly blends strategic thinking, psychology, math, and probability. It's also a great way to understand myself and human nature better.
 

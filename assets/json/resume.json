@@ -34,7 +34,7 @@
       "url": "",
       "startDate": "2023-04-01",
       "endDate": "2024-06-01",
-      "summary": "Founded and led a six-member startup developing a WeChat Mini Program integrating campus discounts and local business services, reaching 10K+ users across 3 universities.",
+      "summary": "",
       "highlights": [
         "Platform Development: Launched a comprehensive campus offer platform, partnering with major platforms (Meituan, Taobao, Jingdong) to provide college students with exclusive discounts on food, entertainment, and online shopping",
         "User Experience & Interface Design: Mapped user journeys to understand user needs, designed and implemented the front end of a WeChat mini-program using JavaScript and WeChat DevTools, ensuring a smooth and intuitive user experience",
@@ -48,7 +48,7 @@
       "url": "",
       "startDate": "2021-09-01",
       "endDate": "2022-09-01",
-      "summary": "Led the university's official media organization, coordinating 100+ members to manage social media platforms and magazine publication.",
+      "summary": "",
       "highlights": [
         "Coordinated 100+ members across multiple departments to manage the university's official social media accounts and print magazine",
         "Won the 'Most Impactful University NewsWork' award from China Youth Daily",
@@ -64,7 +64,7 @@
       "url": "",
       "startDate": "2020-10-01",
       "endDate": "2024-06-01",
-      "summary": "Contributed 200+ hours across 50+ diverse events, enriching children's science literacy and community engagement.",
+      "summary": "",
       "highlights": [
         "Contributed 200+ hours across 50+ diverse events, enriching children's science literacy",
         "Awarded the 'Top 10 Volunteer' from Southern University of Science and Technology in 2022"
@@ -174,7 +174,7 @@
   ],
   "interests": [
     {
-      "name": "Research",
+      "name": "Research Interests",
       "icon": "fa-solid fa-microscope",
       "keywords": [
         "Human-Computer Interaction (HCI)",
@@ -222,6 +222,5 @@
       "endDate": "2023-05-31",
       "url": "https://xizhehao.com/projects/Smart%20Fully%20Automatic%20Flowerpot%20Based%20on%20Micropump/index/"
     }
-
   ]
 }
