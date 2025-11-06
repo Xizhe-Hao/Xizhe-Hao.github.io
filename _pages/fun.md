@@ -11,7 +11,9 @@ nav_order: 4
 
 ### 🍳 Cooking
 
-Cooking is like another language to me—a way to express feelings and show love to friends and family. I find fascinating parallels between cooking and research: both require finding the right "recipe," carefully selecting and preparing materials, experimenting to discover the optimal approach, and understanding that every detail matters—even the smallest seasoning can make a difference. Time management is crucial in both, whether you're coordinating multiple dishes or juggling research experiments.
+Cooking is like another language to me—a way to express emotions and show love to friends and family.
+
+I also find fascinating parallels between cooking and research. Both involve discovering the right “recipe,” carefully selecting and preparing materials, and experimenting to find the optimal approach. In both, attention to detail is essential—even the smallest seasoning or adjustment can make a significant difference. Time management is equally crucial, whether coordinating multiple dishes in the kitchen or juggling experiments in the lab.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -27,15 +29,15 @@ Cooking is like another language to me—a way to express feelings and show love
 
 ### ⛰️ Hiking
 
-I love exploring trails and enjoying the outdoors. There's something refreshing about disconnecting from technology and connecting with nature.
+I really love exploring trails and enjoying the outdoors. There's something refreshing about disconnecting from technology and connecting with nature.
 
 ### 🏸 Badminton
 
 A great way to stay active and enjoy friendly competition with friends.
 
-### 🃏 Poker
+### <img src="/assets/img/poker-game.png" alt="poker" style="width: 28px; vertical-align: middle;"> Poker
 
-Strategic thinking meets psychology—poker is the perfect blend of math, probability, and reading people.
+Poker perfectly blends strategic thinking, psychology, math, and probability. It's also a great way to understand myself and human nature better.
 
 ---
 

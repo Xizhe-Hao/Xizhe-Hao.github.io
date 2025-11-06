@@ -94,9 +94,7 @@
       "startDate": "2021-09-01",
       "endDate": "2022-09-01",
       "summary": "Coordinated 100+ members to manage the university's official social media and magazine.",
-      "highlights": [
-        "Won 'Most Impactful University NewsWork' from China Youth Daily"
-      ]
+      "highlights": ["Won 'Most Impactful University NewsWork' from China Youth Daily"]
     }
   ],
   "education": [
@@ -175,46 +173,25 @@
       "name": "Programming Languages",
       "level": "Advanced",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "C/C++",
-        "JavaScript",
-        "MATLAB"
-      ]
+      "keywords": ["Python", "C/C++", "JavaScript", "MATLAB"]
     },
     {
       "name": "Embedded Systems & Hardware",
       "level": "Advanced",
       "icon": "fa-solid fa-microchip",
-      "keywords": [
-        "Arduino",
-        "Raspberry Pi",
-        "ESP32",
-        "Seeed XIAO nRF52840",
-        "PCB Design",
-        "BLE/Wi-Fi/Bluetooth"
-      ]
+      "keywords": ["Arduino", "Raspberry Pi", "ESP32", "Seeed XIAO nRF52840", "PCB Design", "BLE/Wi-Fi/Bluetooth"]
     },
     {
       "name": "Software Development",
       "level": "Advanced",
       "icon": "fa-solid fa-laptop-code",
-      "keywords": [
-        "iOS Development (Xcode, Swift, ARKit)",
-        "Web Development (Flask, HTML, CSS)",
-        "Machine Learning (PyTorch, YOLOv8)"
-      ]
+      "keywords": ["iOS Development (Xcode, Swift, ARKit)", "Web Development (Flask, HTML, CSS)", "Machine Learning (PyTorch, YOLOv8)"]
     },
     {
       "name": "Tools & Platforms",
       "level": "Intermediate",
       "icon": "fa-solid fa-tools",
-      "keywords": [
-        "Git",
-        "Docker",
-        "Arduino CLI",
-        "Cloud IoT (Alibaba Cloud, Huawei Cloud)"
-      ]
+      "keywords": ["Git", "Docker", "Arduino CLI", "Cloud IoT (Alibaba Cloud, Huawei Cloud)"]
     }
   ],
   "languages": [
@@ -246,13 +223,7 @@
     {
       "name": "Hobbies",
       "icon": "fa-solid fa-heart",
-      "keywords": [
-        "Cooking",
-        "Hiking",
-        "Cycling",
-        "Badminton",
-        "Poker"
-      ]
+      "keywords": ["Cooking", "Hiking", "Cycling", "Badminton", "Poker"]
     }
   ],
   "references": [],
@@ -260,11 +231,7 @@
     {
       "name": "Intelligent Fridge System",
       "summary": "IoT-based smart refrigerator system that automatically tracks food items, monitors temperature and humidity, and issues expiry alerts through an online dashboard.",
-      "highlights": [
-        "Image-based food recognition (YOLOv8)",
-        "Weight sensing and environmental monitoring",
-        "GPT-based recipe suggestion module"
-      ],
+      "highlights": ["Image-based food recognition (YOLOv8)", "Weight sensing and environmental monitoring", "GPT-based recipe suggestion module"],
       "startDate": "2023-07-01",
       "endDate": "2023-07-31",
       "url": ""
@@ -284,11 +251,7 @@
     {
       "name": "Caterpillar-inspired Soft Robot",
       "summary": "PCB-based embedded control system for a bio-inspired soft robot driven by resistively heated liquid crystal elastomer (LCE) actuators.",
-      "highlights": [
-        "MOSFET switching and thermal sensing",
-        "Real-time wireless control via Wi-Fi/Bluetooth",
-        "Programmable crawling locomotion"
-      ],
+      "highlights": ["MOSFET switching and thermal sensing", "Real-time wireless control via Wi-Fi/Bluetooth", "Programmable crawling locomotion"],
       "startDate": "2024-01-01",
       "endDate": "2024-02-28",
       "url": ""
