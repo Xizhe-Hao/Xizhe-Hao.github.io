@@ -444,18 +444,18 @@ ninja.data = [{
           window.open("mailto:%78%68%61%6F%36@%75%77.%65%64%75", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/Xizhe-Hao", "_blank");
+        },
+      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/zachhao", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
