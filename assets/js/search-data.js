@@ -420,7 +420,7 @@ ninja.data = [{
           title: 'Intelligent Fridge System',
           description: "AIoT-based smart refrigerator with food tracking, expiry alerts, and AI-powered recipe suggestions",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/Intelligent%20Fridge%20System/index/";
+              window.location.href = "/project/intelligent-fridge-system/";
             },},{id: "projects-caterpillar-inspired-soft-robot",
           title: 'Caterpillar-inspired Soft Robot',
           description: "Bio-inspired soft robot with PCB-based control system and wireless communication",
@@ -430,7 +430,7 @@ ninja.data = [{
           title: 'Smart Fully Automatic Flowerpot Based on Micropump',
           description: "Intelligent automated plant care system with AI analysis and IoT cloud integration",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/Smart%20Fully%20Automatic%20Flowerpot%20Based%20on%20Micropump/index/";
+              window.location.href = "/project/smart-fully-automatic-flowerpot-based-on-micropump/";
             },},{id: "projects-network-circuit-experiment-system-based-on-digital-twin",
           title: 'Network Circuit Experiment System Based on Digital Twin',
           description: "Digital twin 3D model for remote circuit experiments with real-time hardware-software interaction",
