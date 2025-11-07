@@ -6,10 +6,12 @@ img: assets/img/Flowerpot_featured.png
 importance: 3
 category: work
 date: 2024-06-10
+permalink: /project/smart-fully-automatic-flowerpot-based-on-micropump/
 tags:
   - Raspberry Pi
   - Cloud IoT
   - Real-time monitoring
+
 ---
 
 ## Group Members

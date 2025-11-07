@@ -6,6 +6,7 @@ img: assets/img/Intelligent_Fridge_featured.png
 importance: 2
 category: work
 date: 2023-07-25
+permalink: /project/intelligent-fridge-system/
 tags:
   - Food management
   - Environment monitoring
