@@ -77,44 +77,16 @@ layout: default
     {% if page.visitor_map and site.clustrmaps_id %}
       <div style="width: 100%; text-align: center; margin-top: 3rem; margin-bottom: 2rem;">
         <h3 style="margin-bottom: 1.5rem; color: #2c3e50; font-size: 1.5rem; font-weight: 700;">🌍 Global Visitors</h3>
-        
-        <!-- Visitor Statistics -->
-        <div id="visitor-stats" style="display: flex; justify-content: center; margin-bottom: 1.5rem;">
-          <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 1.2rem 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); min-width: 200px;">
-            <div style="color: rgba(255,255,255,0.9); font-size: 0.85rem; margin-bottom: 0.3rem; font-weight: 500;">Total Pageviews</div>
-            <div id="total-visitors" style="color: #ffffff; font-size: 2rem; font-weight: 700; margin-bottom: 0.3rem;">Loading...</div>
-            <div style="color: rgba(255,255,255,0.75); font-size: 0.75rem; font-style: italic;">Since May 17th, 2025</div>
-          </div>
-        </div>
-
         <div id="clustrmaps-container" style="display: inline-block; position: relative;">
-          <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=500&t=tt&d={{ site.clustrmaps_id }}&co=667eea&cmo=764ba2&cmn=a8b3ff&ct=ffffff'></script>
+          <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=500&t=tt&d={{ site.clustrmaps_id }}'></script>
         </div>
       </div>
       <script type="text/javascript">
-        // Extract and display visitor statistics
+        // Prevent clicks on ClustrMaps from redirecting to their site
         (function() {
-          function updateVisitorStats() {
-            var container = document.getElementById('clustrmaps-container');
-            if (container) {
-              // Extract total visitors from the map title
-              var titleElement = container.querySelector('div[style*="font-size"]');
-              if (titleElement && titleElement.textContent) {
-                var match = titleElement.textContent.match(/(\d+[\d,]*)\s*Total\s*Pageviews/i);
-                if (match) {
-                  var totalVisitors = match[1];
-                  document.getElementById('total-visitors').textContent = totalVisitors;
-                }
-              }
-            }
-          }
-
           function disableMapLinks() {
             var container = document.getElementById('clustrmaps-container');
             if (container) {
-              // Update statistics
-              updateVisitorStats();
-              
               // Disable all links within the map
               var links = container.querySelectorAll('a');
               links.forEach(function(link) {
