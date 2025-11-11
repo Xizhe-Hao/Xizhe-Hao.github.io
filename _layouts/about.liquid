@@ -82,21 +82,25 @@ layout: default
         </div>
       </div>
       <script type="text/javascript">
-        // Prevent clicks on ClustrMaps from redirecting to their site
+        // Prevent clicks on ClustrMaps from redirecting to their site, but keep zoom controls working
         (function() {
           function disableMapLinks() {
             var container = document.getElementById('clustrmaps-container');
             if (container) {
-              // Disable all links within the map
+              // Only disable links that redirect to clustrmaps.com, not zoom controls
               var links = container.querySelectorAll('a');
               links.forEach(function(link) {
-                link.addEventListener('click', function(e) {
-                  e.preventDefault();
-                  e.stopPropagation();
-                  return false;
-                }, true);
-                link.style.cursor = 'default';
-                link.removeAttribute('href');
+                var href = link.getAttribute('href');
+                // Only disable external links to clustrmaps.com, keep zoom controls (which use javascript:void)
+                if (href && href.indexOf('clustrmaps.com') !== -1) {
+                  link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    return false;
+                  }, true);
+                  link.style.cursor = 'default';
+                  link.removeAttribute('href');
+                }
               });
             }
           }
