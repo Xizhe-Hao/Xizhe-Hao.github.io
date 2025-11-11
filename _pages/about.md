@@ -31,14 +31,22 @@ Prior to the University of Washington, I earned my B.Eng. in Automation from [So
 
 My research interests lie in developing intelligent end-to-end systems that integrate seamlessly into everyday life, with an emphasis on Human-Computer Interaction, wearable computing, and embedded systems design. I am particularly interested in creating novel sensing techniques and interaction methods that enhance human capabilities.
 
+<div style="margin: 3rem 0;"></div>
+
 ---
 
-<div style="background-color: #fff3cd; padding: 20px; border-radius: 10px; border-left: 5px solid #ffc107; margin: 20px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <p style="margin-top: 0; margin-bottom: 0; color: #856404; line-height: 1.6; font-size: 1rem;">
+<div style="margin: 2.5rem 0;"></div>
+
+<div style="background-color: #fff3cd; padding: 24px 28px; border-radius: 12px; border-left: 5px solid #ffc107; margin: 2rem 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <p style="margin-top: 0; margin-bottom: 0; color: #856404; line-height: 1.8; font-size: 1.05rem;">
     🎓 <span style="font-weight: 600;">Seeking PhD Opportunities:</span> I am actively seeking PhD positions starting Fall 2026 in Wearable Computing, Ubiquitous Computing, Human-Computer Interaction (HCI), and Human-AI Collaboration. If you think I would be a good fit for your lab, please feel free to reach out!
   </p>
 </div>
 
+<div style="margin: 2.5rem 0;"></div>
+
 <img src="/assets/img/balloons.png" alt="balloons" style="width: 24px; vertical-align: middle; margin-right: 6px;"> **Fun Facts:** Beyond research, I enjoy cooking, hiking trails, cycling, playing badminton, and poker. [Learn more about my hobbies →](/fun/)
+
+<div style="margin: 1.5rem 0;"></div>
 
 Feel free to reach out to me at xhao6 [at] uw [dot] edu!

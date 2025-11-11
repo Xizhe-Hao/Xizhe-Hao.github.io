@@ -81,17 +81,29 @@ layout: default
           <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=500&t=tt&d={{ site.clustrmaps_id }}'></script>
         </div>
       </div>
+      <style>
+        /* Hide zoom controls on the map */
+        #clustrmaps-container .leaflet-control-zoom {
+          display: none !important;
+        }
+      </style>
       <script type="text/javascript">
-        // Prevent clicks on ClustrMaps from redirecting to their site, but keep zoom controls working
+        // Prevent clicks on ClustrMaps from redirecting to their site
         (function() {
           function disableMapLinks() {
             var container = document.getElementById('clustrmaps-container');
             if (container) {
-              // Only disable links that redirect to clustrmaps.com, not zoom controls
+              // Hide zoom controls
+              var zoomControls = container.querySelectorAll('.leaflet-control-zoom');
+              zoomControls.forEach(function(control) {
+                control.style.display = 'none';
+              });
+              
+              // Disable links that redirect to clustrmaps.com
               var links = container.querySelectorAll('a');
               links.forEach(function(link) {
                 var href = link.getAttribute('href');
-                // Only disable external links to clustrmaps.com, keep zoom controls (which use javascript:void)
+                // Only disable external links to clustrmaps.com
                 if (href && href.indexOf('clustrmaps.com') !== -1) {
                   link.addEventListener('click', function(e) {
                     e.preventDefault();
