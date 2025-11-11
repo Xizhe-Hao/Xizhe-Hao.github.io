@@ -45,7 +45,7 @@ My research interests lie in developing intelligent end-to-end systems that inte
 
 <div style="margin: 2.5rem 0;"></div>
 
-<img src="/assets/img/balloons.png" alt="balloons" style="width: 24px; vertical-align: middle; margin-right: 6px;"> **Fun Facts:** Beyond research, I enjoy cooking, hiking trails, cycling, playing badminton, and poker. [Learn more about my hobbies →](/fun/)
+<img src="/assets/img/balloons.png" alt="balloons" style="width: 24px; vertical-align: middle; margin-right: 6px;"> **Fun Facts:** Beyond research, I enjoy cooking, hiking trails, cycling, and playing badminton. [Learn more about my hobbies →](/fun/)
 
 <div style="margin: 1.5rem 0;"></div>
 
