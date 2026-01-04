@@ -31,7 +31,7 @@
               // Add date notation to "Total Pageviews"
               var textElements = container.querySelectorAll('text, tspan, div');
               textElements.forEach(function(element) {
-                if (element.textContent && element.textContent.includes('Total Pageviews')) {
+                if (element.textContent && element.textContent.includes('Total Pageviews') && !element.textContent.includes('Since May 17th')) {
                   element.textContent = element.textContent.replace('Total Pageviews', 'Total Pageviews (Since May 17th, 2025)');
                 }
               });
