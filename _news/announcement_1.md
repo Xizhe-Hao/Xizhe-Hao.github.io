@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Excited to join the [Iyer Lab](https://homes.cs.washington.edu/~vsiyer/) as a Graduate Research Assistant!
+Excited to join the [Iyer Lab](https://homes.cs.washington.edu/~vsiyer/) as a Graduate Research Assistant! 🔬
