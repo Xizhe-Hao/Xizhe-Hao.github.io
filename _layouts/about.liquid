@@ -80,6 +80,7 @@ layout: default
         <div id="clustrmaps-container" style="display: inline-block; position: relative;">
           <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=500&t=tt&d={{ site.clustrmaps_id }}'></script>
         </div>
+        <p style="margin-top: 0.5rem; color: #666; font-size: 0.9rem; font-style: italic;">Since May 17th, 2025</p>
       </div>
       <style>
         /* Hide zoom controls on the map */
@@ -115,21 +116,6 @@ layout: default
                 }
               });
               
-              // Add date notation to "Total Pageviews"
-              // Use a more careful approach to avoid breaking the map
-              var allElements = container.querySelectorAll('*');
-              allElements.forEach(function(element) {
-                // Only process text nodes directly, not container elements
-                if (element.childNodes.length > 0) {
-                  element.childNodes.forEach(function(node) {
-                    if (node.nodeType === Node.TEXT_NODE && 
-                        node.textContent.includes('Total Pageviews') && 
-                        !node.textContent.includes('Since May 17th')) {
-                      node.textContent = node.textContent.replace('Total Pageviews', 'Total Pageviews (Since May 17th, 2025)');
-                    }
-                  });
-                }
-              });
             }
           }
           
