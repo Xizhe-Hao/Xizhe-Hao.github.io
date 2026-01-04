@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Started as Teaching Assistant for EE 497/498/598: Engineering Entrepreneurial Capstone at UW ECE! 👨‍🏫
+Started as Teaching Assistant for EE 497/498/598: Engineering Entrepreneurial Capstone at UW ECE!
 
