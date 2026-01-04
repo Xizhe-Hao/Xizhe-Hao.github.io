@@ -116,10 +116,18 @@ layout: default
               });
               
               // Add date notation to "Total Pageviews"
-              var textElements = container.querySelectorAll('text, tspan, div');
-              textElements.forEach(function(element) {
-                if (element.textContent && element.textContent.includes('Total Pageviews') && !element.textContent.includes('Since May 17th')) {
-                  element.textContent = element.textContent.replace('Total Pageviews', 'Total Pageviews (Since May 17th, 2025)');
+              // Use a more careful approach to avoid breaking the map
+              var allElements = container.querySelectorAll('*');
+              allElements.forEach(function(element) {
+                // Only process text nodes directly, not container elements
+                if (element.childNodes.length > 0) {
+                  element.childNodes.forEach(function(node) {
+                    if (node.nodeType === Node.TEXT_NODE && 
+                        node.textContent.includes('Total Pageviews') && 
+                        !node.textContent.includes('Since May 17th')) {
+                      node.textContent = node.textContent.replace('Total Pageviews', 'Total Pageviews (Since May 17th, 2025)');
+                    }
+                  });
                 }
               });
             }
