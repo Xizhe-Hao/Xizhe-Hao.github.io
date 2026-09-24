@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.washington.edu/'>University of Washington</a> · MS in Electrical and Computer Engineering
+subtitle: <a href='https://www.nd.edu/'>University of Notre Dame</a> · Ph.D. Student in Computer Science and Engineering
 
 profile:
   align: right
@@ -25,9 +25,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a graduate student in Electrical and Computer Engineering at the University of Washington, advised by Prof. [Shwetak Patel](https://homes.cs.washington.edu/~shwetak/). I am also fortunate to work with Prof. [Vikram Iyer](https://homes.cs.washington.edu/~vsiyer/) and Prof. [Jon E. Froehlich](https://makeabilitylab.cs.washington.edu/). My work at [UW Ubicomp Lab](https://ubicomplab.cs.washington.edu/) focuses on wearable devices and embedded systems.
+I am a first-year Ph.D. student in Computer Science and Engineering at the [University of Notre Dame](https://www.nd.edu/), advised by Prof. [Tingyu Cheng](https://tingyucheng.com/) .
 
-Prior to the University of Washington, I earned my B.Eng. in Automation from [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/) in Shenzhen, China, where I graduated with distinction.
+Prior to Notre Dame, I earned my M.S. in Electrical and Computer Engineering from the [University of Washington](https://www.washington.edu/), where I worked with Prof. [Shwetak Patel](https://homes.cs.washington.edu/~shwetak/), Prof. [Vikram Iyer](https://homes.cs.washington.edu/~vsiyer/), and Prof. [Jon E. Froehlich](https://jonfroehlich.github.io/) on wearable devices, embedded systems and HCI. Before that, I received my B.Eng. in Automation from [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/) in Shenzhen, China, where I graduated with distinction.
 
 My research interests lie in developing intelligent end-to-end systems that integrate seamlessly into everyday life, with an emphasis on Human-Computer Interaction, wearable computing, and embedded systems design. I am particularly interested in creating novel sensing techniques and interaction methods that enhance human capabilities.
 
@@ -41,4 +41,4 @@ My research interests lie in developing intelligent end-to-end systems that inte
 
 <div style="margin: 1.5rem 0;"></div>
 
-Feel free to reach out to me at xhao6 [at] uw [dot] edu!
+Feel free to reach out to me at xhao [at] nd [dot] edu!

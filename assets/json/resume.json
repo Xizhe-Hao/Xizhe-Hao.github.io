@@ -1,9 +1,9 @@
 {
   "basics": {
     "name": "Zach (Xizhe) Hao",
-    "label": "Graduate Student in Electrical and Computer Engineering",
+    "label": "Ph.D. Student in Computer Science and Engineering",
     "image": "",
-    "email": "xhao6 [at] uw [dot] edu",
+    "email": "xhao [at] nd [dot] edu",
     "phone": "",
     "url": "",
     "summary": "",
@@ -72,6 +72,17 @@
     }
   ],
   "education": [
+    {
+      "institution": "University of Notre Dame",
+      "location": "Notre Dame, IN",
+      "url": "https://www.nd.edu/",
+      "area": "Computer Science and Engineering",
+      "studyType": "PhD",
+      "startDate": "2026-08-01",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    },
     {
       "institution": "University of Washington",
       "location": "Seattle, WA",

@@ -74,65 +74,14 @@ layout: default
     {% endif %}
 
     <!-- Visitor Map -->
-    {% if page.visitor_map and site.clustrmaps_id %}
+    {% if page.visitor_map and site.mapmyvisitors_id %}
       <div style="width: 100%; text-align: center; margin-top: 3rem; margin-bottom: 2rem;">
         <h3 style="margin-bottom: 1.5rem; color: #2c3e50; font-size: 1.5rem; font-weight: 700;">🌍 Global Visitors</h3>
-        <div id="clustrmaps-container" style="display: inline-block; position: relative;">
-          <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=500&t=tt&d={{ site.clustrmaps_id }}'></script>
+        <div id="mapmyvisitors-container" style="display: inline-block; position: relative; max-width: 500px; width: 100%;">
+          <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d={{ site.mapmyvisitors_id }}&cl=ffffff&w=a"></script>
         </div>
-        <p style="margin-top: 0.5rem; color: #666; font-size: 0.9rem; font-style: italic;">Since May 17th, 2025</p>
+        <p style="margin-top: 0.5rem; color: #666; font-size: 0.9rem; font-style: italic;">Since September 24th, 2026</p>
       </div>
-      <style>
-        /* Hide zoom controls on the map */
-        #clustrmaps-container .leaflet-control-zoom {
-          display: none !important;
-        }
-      </style>
-      <script type="text/javascript">
-        // Prevent clicks on ClustrMaps from redirecting to their site
-        (function() {
-          function disableMapLinks() {
-            var container = document.getElementById('clustrmaps-container');
-            if (container) {
-              // Hide zoom controls
-              var zoomControls = container.querySelectorAll('.leaflet-control-zoom');
-              zoomControls.forEach(function(control) {
-                control.style.display = 'none';
-              });
-              
-              // Disable links that redirect to clustrmaps.com
-              var links = container.querySelectorAll('a');
-              links.forEach(function(link) {
-                var href = link.getAttribute('href');
-                // Only disable external links to clustrmaps.com
-                if (href && href.indexOf('clustrmaps.com') !== -1) {
-                  link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    return false;
-                  }, true);
-                  link.style.cursor = 'default';
-                  link.removeAttribute('href');
-                }
-              });
-              
-            }
-          }
-          
-          // Try multiple times to ensure the map is loaded
-          if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', function() {
-              setTimeout(disableMapLinks, 500);
-              setTimeout(disableMapLinks, 1500);
-              setTimeout(disableMapLinks, 3000);
-            });
-          } else {
-            setTimeout(disableMapLinks, 500);
-            setTimeout(disableMapLinks, 1500);
-            setTimeout(disableMapLinks, 3000);
-          }
-        })();
-      </script>
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
