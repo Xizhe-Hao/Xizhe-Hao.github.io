@@ -9,10 +9,10 @@ last_name: Hao
 contact_note: >
   Feel free to reach out via email or connect with me on LinkedIn!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Ph.D. student in Computer Science and Engineering at the University of Notre Dame, passionate about HCI, wearable computing, and embedded systems.
+  Ph.D. student in Computer Science and Engineering at the University of Notre Dame, working on tactile sensing, robotics, ubiquitous computing, and HCI.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: HCI, Human-Computer Interaction, wearable computing, embedded systems, IoT, augmented reality, spatial audio, AI-assisted development # add your own keywords or leave empty
+keywords: tactile sensing, robotics, ubiquitous computing, HCI, Human-Computer Interaction, wearable computing, embedded systems, IoT, augmented reality # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: chef-hat.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
