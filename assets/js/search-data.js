@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Ph.D. student in Computer Science and Engineering at the University of Notre Dame, specializing in Human-Computer Interaction, Wearable Computing, and Embedded Systems. Research focus on interaction techniques, AI-assisted development tools, and augmented reality.",
+          description: "Ph.D. student in Computer Science and Engineering at the University of Notre Dame, working on tactile sensing, robotics and ubiquitous computing.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
