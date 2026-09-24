@@ -27,7 +27,7 @@ latest_posts:
 
 I am a first-year Ph.D. student in Computer Science and Engineering at the [University of Notre Dame](https://www.nd.edu/), advised by Prof. [Tingyu Cheng](https://tingyucheng.com/).
 
-Prior to Notre Dame, I earned my M.S. in Electrical and Computer Engineering from the [University of Washington](https://www.washington.edu/), where I worked with Prof. [Shwetak Patel](https://homes.cs.washington.edu/~shwetak/), Prof. [Vikram Iyer](https://homes.cs.washington.edu/~vsiyer/), and Prof. [Jon E. Froehlich](https://jonfroehlich.github.io/) on wearable devices, embedded systems and HCI. Before that, I received my B.Eng. in Automation from [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/) in Shenzhen, China, where I graduated with distinction.
+Prior to Notre Dame, I earned my M.S. in Electrical and Computer Engineering from the [University of Washington](https://www.washington.edu/), where I was fortunate to work with Prof. [Shwetak Patel](https://homes.cs.washington.edu/~shwetak/), Prof. [Vikram Iyer](https://homes.cs.washington.edu/~vsiyer/), and Prof. [Jon E. Froehlich](https://jonfroehlich.github.io/) on wearable devices, embedded systems and HCI. Before that, I received my B.Eng. in Automation from [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/) in Shenzhen, China, where I graduated with distinction.
 
 My research explores tactile sensing and physical interaction for intelligent robotic systems. Building on my background in Human-Computer Interaction and ubiquitous computing, I am interested in developing flexible and scalable sensing systems that help robots better understand and interact with the physical world.
 
