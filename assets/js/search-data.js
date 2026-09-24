@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Graduate student in Electrical and Computer Engineering at the University of Washington, specializing in Human-Computer Interaction, Wearable Computing, and Embedded Systems. Research focus on interaction techniques, AI-assisted development tools, and augmented reality.",
+          description: "Ph.D. student in Computer Science and Engineering at the University of Notre Dame, specializing in Human-Computer Interaction, Wearable Computing, and Embedded Systems. Research focus on interaction techniques, AI-assisted development tools, and augmented reality.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -419,6 +419,9 @@ ninja.data = [{
           section: "News",},{id: "news-started-as-teaching-assistant-for-ee-497-498-598-engineering-entrepreneurial-capstone-at-uw-ece",
           title: 'Started as Teaching Assistant for EE 497/498/598: Engineering Entrepreneurial Capstone at UW ECE!...',
           description: "",
+          section: "News",},{id: "news-started-my-ph-d-in-computer-science-and-engineering-at-the-university-of-notre-dame-joining-prof-tingyu-cheng-s-internet-of-matter-lab-tada",
+          title: 'Started my Ph.D. in Computer Science and Engineering at the University of Notre...',
+          description: "",
           section: "News",},{id: "projects-intelligent-fridge-system",
           title: 'Intelligent Fridge System',
           description: "AIoT-based smart refrigerator with food tracking, expiry alerts, and AI-powered recipe suggestions",
@@ -444,7 +447,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%78%68%61%6F%36@%75%77.%65%64%75", "_blank");
+          window.open("mailto:%78%68%61%6F@%6E%64.%65%64%75", "_blank");
         },
       },{
         id: 'social-github',
