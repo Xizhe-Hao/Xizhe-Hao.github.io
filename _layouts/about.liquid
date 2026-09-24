@@ -7,6 +7,20 @@ layout: default
       {% if site.title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
+        {% if site.chinese_name %}
+          {% if site.chinese_name_font %}
+            <link
+              rel="stylesheet"
+              href="https://fonts.googleapis.com/css2?family={{ site.chinese_name_font | replace: ' ', '+' }}&text={{ site.chinese_name | url_encode }}&display=swap"
+            >
+          {% endif %}
+          <span
+            class="font-weight-lighter"
+            style="margin-left: 0.3em; letter-spacing: 0.08em;{% if site.chinese_name_font %} font-family: '{{ site.chinese_name_font }}', serif;{% endif %}"
+          >
+            {{- site.chinese_name -}}
+          </span>
+        {% endif %}
       {% else %}
         {{ site.title }}
       {% endif %}

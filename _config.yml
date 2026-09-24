@@ -6,6 +6,8 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Zach
 middle_name: (Xizhe)
 last_name: Hao
+chinese_name: 郝熙哲 # shown after the full name on the about page; leave blank to hide
+chinese_name_font: Noto Serif SC # any Google Font with Chinese glyphs, e.g. ZCOOL XiaoWei, LXGW WenKai TC, Ma Shan Zheng
 contact_note: >
   Feel free to reach out via email or connect with me on LinkedIn!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
