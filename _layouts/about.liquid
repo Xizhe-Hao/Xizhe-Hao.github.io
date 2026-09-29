@@ -82,6 +82,44 @@ layout: default
         </div>
         <p style="margin-top: 0.5rem; color: #666; font-size: 0.9rem; font-style: italic;">Since September 24th, 2026</p>
       </div>
+      <style>
+        /* The widget is wrapped in a link to mapmyvisitors.com; make it non-interactive */
+        #mapmyvisitors-container a {
+          pointer-events: none;
+          cursor: default;
+        }
+      </style>
+      <script type="text/javascript">
+        // Prevent the MapMyVisitors widget from linking to its stats page
+        (function () {
+          var container = document.getElementById('mapmyvisitors-container');
+          if (!container) return;
+
+          function disableLinks() {
+            container.querySelectorAll('a').forEach(function (link) {
+              link.removeAttribute('href');
+              link.removeAttribute('target');
+              link.setAttribute('tabindex', '-1');
+            });
+          }
+
+          // Block clicks and keyboard activation even before the widget finishes rendering
+          ['click', 'auxclick', 'keydown'].forEach(function (type) {
+            container.addEventListener(
+              type,
+              function (e) {
+                if (type === 'keydown' && e.key !== 'Enter') return;
+                e.preventDefault();
+                e.stopPropagation();
+              },
+              true
+            );
+          });
+
+          disableLinks();
+          new MutationObserver(disableLinks).observe(container, { childList: true, subtree: true });
+        })();
+      </script>
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
